@@ -1,0 +1,14 @@
+{
+  "license": "MIT",
+  "name": "@creativesurveyapp/design-tokens",
+  "version": "0.1.0",
+  "scripts": {
+    "token:genJson": "./node_modules/.bin/token-transformer tokens.json output.json",
+    "token:genToken": "style-dictionary build --config style-dictionary.config.json",
+    "token": "run-s tokne:genJson token:genToken"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.27"
+  }
+}

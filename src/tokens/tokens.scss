@@ -1,0 +1,63 @@
+
+/**
+ * Do not edit directly
+ * Generated on Sat, 26 Nov 2022 12:10:05 GMT
+ */
+
+$color-blue-500-primary: #73b1c0 !default;
+$color-brand-cs-darkgray: #6a6a6a !default;
+$color-brand-cs-orange: #f49e00 !default;
+$color-brand-cs-lightgray: #ada6a1 !default;
+$color-gray-900: #333333 !default;
+$color-gray-800: #494949 !default;
+$color-gray-750: #3e3e3e !default;
+$color-gray-700: #4b4b4b !default;
+$color-gray-600: #6f6f6f !default;
+$color-gray-500: #7c7c7c !default;
+$color-gray-400: #999999 !default;
+$color-gray-300: #bababa !default;
+$color-gray-200: #e0e0e0 !default;
+$color-gray-100: #eaeaea !default;
+$color-gray-50: #f6f6f6 !default;
+$color-black: #000000 !default;
+$color-white: #ffffff !default;
+$color-text-light-body: #333333 !default;
+$token-set-order-1: semantic !default;
+$token-set-order-0: primitive !default;
+
+$css-tokens: (
+  'tokenSetOrder': (
+    '0': $token-set-order-0,
+    '1': $token-set-order-1
+  ),
+  'color': (
+    'text': (
+      'light': (
+        'body': $color-text-light-body
+      )
+    ),
+    'white': $color-white,
+    'black': $color-black,
+    'gray': (
+      '50': $color-gray-50,
+      '100': $color-gray-100,
+      '200': $color-gray-200,
+      '300': $color-gray-300,
+      '400': $color-gray-400,
+      '500': $color-gray-500,
+      '600': $color-gray-600,
+      '700': $color-gray-700,
+      '750': $color-gray-750,
+      '800': $color-gray-800,
+      '900': $color-gray-900
+    ),
+    'brand': (
+      'cs-lightgray': $color-brand-cs-lightgray,
+      'cs-orange': $color-brand-cs-orange,
+      'cs-darkgray': $color-brand-cs-darkgray
+    ),
+    'blue': (
+      '500-primary': $color-blue-500-primary
+    )
+  )
+);
