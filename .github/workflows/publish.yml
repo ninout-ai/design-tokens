@@ -1,4 +1,8 @@
 name: publish design tokens
+
+env:
+ CI: true
+
 on:
   push:
     paths:
