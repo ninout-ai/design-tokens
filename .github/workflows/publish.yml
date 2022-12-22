@@ -16,7 +16,8 @@ jobs:
           node-version: "16.x"
           registry-url: https://npm.pkg.github.com/
 
-      - run: npm ci
+      - name: install node_modules
+        run: npm install
 
       - name: build tokens
         run: npm run token
