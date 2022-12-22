@@ -1,7 +1,7 @@
 name: publish design tokens
 
 env:
- CI: true
+  CI: true
 
 on:
   push:
@@ -14,19 +14,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
           registry-url: https://npm.pkg.github.com/
 
       - name: install node_modules
-        run: npm install
+        run: yarn
 
       - name: build tokens
-        run: npm run token
+        run: yarn token
 
-      - run: npm publish
+      - name: publish to npm
+        run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
