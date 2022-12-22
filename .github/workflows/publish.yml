@@ -1,0 +1,26 @@
+name: publish design tokens
+on:
+  push:
+    tags:
+      - 'v*'
+  # release:
+  #   types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+          registry-url: https://npm.pkg.github.com/
+
+      - run: npm ci
+
+      - name: build tokens
+        run: npm run token
+
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
