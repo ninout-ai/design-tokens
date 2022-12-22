@@ -1,10 +1,10 @@
 name: publish design tokens
 on:
   push:
-    tags:
-      - 'v*'
-  # release:
-  #   types: [created]
+    paths:
+      - ".github/workflows/publish.yml"
+      - "tokens.json"
+      - "src/tokens/**"
 
 jobs:
   build:
