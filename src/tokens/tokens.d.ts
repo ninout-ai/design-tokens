@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Dec 2022 06:01:25 GMT
+ * Generated on Thu, 22 Dec 2022 01:34:47 GMT
  */
 
 export default tokens;
@@ -28,76 +28,71 @@ declare const tokens: {
   },
   "color": {
     "text": {
-      "light": {
-        "body": DesignToken,
-        "primary": DesignToken,
-        "accent": DesignToken,
-        "white": DesignToken,
-        "place-holder": DesignToken,
-        "disable": DesignToken
-      }
+      "body": DesignToken,
+      "primary": DesignToken,
+      "accent": DesignToken,
+      "white": DesignToken,
+      "place-holder": DesignToken,
+      "disable": DesignToken
     },
     "label": {
-      "light": {
-        "blue": DesignToken,
-        "purple": DesignToken,
-        "red": DesignToken,
-        "green": DesignToken,
-        "pink": DesignToken,
-        "yellow": DesignToken,
-        "orange": DesignToken,
-        "gray": DesignToken
-      }
+      "blue": DesignToken,
+      "purple": DesignToken,
+      "red": DesignToken,
+      "green": DesignToken,
+      "pink": DesignToken,
+      "yellow": DesignToken,
+      "orange": DesignToken,
+      "gray": DesignToken
     },
     "button": {
-      "light": {
-        "primary": {
-          "default": DesignToken,
-          "hover": DesignToken,
-          "outline-border": DesignToken,
-          "outline-hover": DesignToken,
-          "light-hover": DesignToken,
-          "disable": DesignToken
-        },
-        "basic": {
-          "default": DesignToken,
-          "hover": DesignToken,
-          "outline-border": DesignToken,
-          "outline-hover": DesignToken,
-          "outline-disable": DesignToken,
-          "disable": DesignToken
-        },
-        "danger": {
-          "default": DesignToken,
-          "hover": DesignToken,
-          "outline-border": DesignToken,
-          "outline-hover": DesignToken,
-          "disable": DesignToken
-        },
-        "secondary": {
-          "default": DesignToken,
-          "hover": DesignToken,
-          "outline-border": DesignToken,
-          "outline-hover": DesignToken,
-          "outline-disable": DesignToken,
-          "disable": DesignToken
-        },
-        "accent": {
-          "default": DesignToken,
-          "hover": DesignToken,
-          "outline-border": DesignToken,
-          "outline-hover": DesignToken,
-          "disable": DesignToken
-        },
-        "default-thema": {
-          "default": DesignToken,
-          "hover": DesignToken,
-          "outline-border": DesignToken,
-          "outline-hover": DesignToken,
-          "outline-disable": DesignToken,
-          "disable": DesignToken
-        }
-      }
+      "primary": {
+        "default": DesignToken,
+        "hover": DesignToken,
+        "outline-default": DesignToken,
+        "outline-hover": DesignToken,
+        "hover-light": DesignToken,
+        "disable": DesignToken
+      },
+      "neutral": {
+        "default": DesignToken,
+        "hover": DesignToken,
+        "outline-default": DesignToken,
+        "outline-hover": DesignToken,
+        "outline-disable": DesignToken,
+        "disable": DesignToken
+      },
+      "danger": {
+        "default": DesignToken,
+        "hover": DesignToken,
+        "outline-default": DesignToken,
+        "outline-hover": DesignToken,
+        "disable": DesignToken
+      },
+      "secondary": {
+        "default": DesignToken,
+        "hover": DesignToken,
+        "outline-default": DesignToken,
+        "outline-hover": DesignToken,
+        "outline-disable": DesignToken,
+        "disable": DesignToken
+      },
+      "accent": {
+        "default": DesignToken,
+        "hover": DesignToken,
+        "outline-default": DesignToken,
+        "outline-hover": DesignToken,
+        "disable": DesignToken
+      },
+      "theme-primary": {
+        "default": DesignToken,
+        "hover": DesignToken,
+        "outline-default": DesignToken,
+        "outline-hover": DesignToken,
+        "outline-disable": DesignToken,
+        "disable": DesignToken
+      },
+      "white": DesignToken
     },
     "bland": {
       "cs-orange": DesignToken,
@@ -105,54 +100,47 @@ declare const tokens: {
       "cs-darkgray": DesignToken
     },
     "calender": {
-      "light": {
-        "weekday": DesignToken,
-        "weekday-othermonth": DesignToken,
-        "sunday": DesignToken,
-        "sunday-othermonth": DesignToken,
-        "saturday": DesignToken,
-        "saturday-othermonth": DesignToken
-      }
+      "weekday": DesignToken,
+      "weekday-othermonth": DesignToken,
+      "sunday": DesignToken,
+      "sunday-othermonth": DesignToken,
+      "saturday": DesignToken,
+      "saturday-othermonth": DesignToken
     },
     "icon": {
-      "light": {
-        "default": DesignToken,
-        "primary": DesignToken,
-        "secondary": DesignToken,
-        "logic": DesignToken,
-        "basic": DesignToken
-      }
+      "default": DesignToken,
+      "primary": DesignToken,
+      "secondary": DesignToken,
+      "logic": DesignToken,
+      "basic": DesignToken,
+      "white": DesignToken
     },
     "background": {
-      "light": {
-        "white": DesignToken,
-        "basic": {
-          "primary": DesignToken,
-          "secondary": DesignToken,
-          "tertiary": DesignToken
-        },
-        "default": {
-          "primary": DesignToken,
-          "secondary": DesignToken,
-          "tertiary": DesignToken
-        }
+      "white": DesignToken,
+      "neutral": {
+        "primary": DesignToken,
+        "secondary": DesignToken,
+        "tertiary": DesignToken
+      },
+      "default": {
+        "primary": DesignToken,
+        "secondary": DesignToken,
+        "tertiary": DesignToken
       }
     },
     "border": {
-      "light": {
-        "basic": {
-          "primary": DesignToken,
-          "secondary": DesignToken,
-          "tertiary": DesignToken
-        },
-        "default-thema": {
-          "primary": DesignToken
-        },
-        "focus": DesignToken,
-        "default": {
-          "primary": DesignToken,
-          "secondary": DesignToken
-        }
+      "neutral": {
+        "primary": DesignToken,
+        "secondary": DesignToken,
+        "tertiary": DesignToken
+      },
+      "theme-primary": {
+        "primary": DesignToken
+      },
+      "focus": DesignToken,
+      "default": {
+        "primary": DesignToken,
+        "secondary": DesignToken
       }
     },
     "status": {
