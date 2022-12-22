@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Dec 2022 06:01:25 GMT
+ * Generated on Thu, 22 Dec 2022 01:34:47 GMT
  */
 
 module.exports = {
@@ -46,31 +46,306 @@ module.exports = {
   },
   "color": {
     "text": {
-      "light": {
-        "body": {
+      "body": {
+        "value": "#333333",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
           "value": "#333333",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#333333",
-            "type": "color"
-          },
-          "name": "ColorTextLightBody",
-          "attributes": {
-            "category": "color",
-            "type": "text",
-            "item": "light",
-            "subitem": "body"
-          },
-          "path": [
-            "color",
-            "text",
-            "light",
-            "body"
-          ]
+          "type": "color"
         },
-        "primary": {
+        "name": "ColorTextBody",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "body"
+        },
+        "path": [
+          "color",
+          "text",
+          "body"
+        ]
+      },
+      "primary": {
+        "value": "#73b1c0",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#73B1C0",
+          "type": "color"
+        },
+        "name": "ColorTextPrimary",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "primary"
+        },
+        "path": [
+          "color",
+          "text",
+          "primary"
+        ]
+      },
+      "accent": {
+        "value": "#eaa21a",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#EAA21A",
+          "type": "color"
+        },
+        "name": "ColorTextAccent",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "accent"
+        },
+        "path": [
+          "color",
+          "text",
+          "accent"
+        ]
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "name": "ColorTextWhite",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "text",
+          "white"
+        ]
+      },
+      "place-holder": {
+        "value": "#bababa",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#BABABA",
+          "type": "color"
+        },
+        "name": "ColorTextPlaceHolder",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "place-holder"
+        },
+        "path": [
+          "color",
+          "text",
+          "place-holder"
+        ]
+      },
+      "disable": {
+        "value": "#e0e0e0",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#E0E0E0",
+          "type": "color"
+        },
+        "name": "ColorTextDisable",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "disable"
+        },
+        "path": [
+          "color",
+          "text",
+          "disable"
+        ]
+      }
+    },
+    "label": {
+      "blue": {
+        "value": "#73b1c0",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#73B1C0",
+          "type": "color"
+        },
+        "name": "ColorLabelBlue",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "blue"
+        },
+        "path": [
+          "color",
+          "label",
+          "blue"
+        ]
+      },
+      "purple": {
+        "value": "#757ec0",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#757EC0",
+          "type": "color"
+        },
+        "name": "ColorLabelPurple",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "purple"
+        },
+        "path": [
+          "color",
+          "label",
+          "purple"
+        ]
+      },
+      "red": {
+        "value": "#d24623",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#D24623",
+          "type": "color"
+        },
+        "name": "ColorLabelRed",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "red"
+        },
+        "path": [
+          "color",
+          "label",
+          "red"
+        ]
+      },
+      "green": {
+        "value": "#7ba544",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#7BA544",
+          "type": "color"
+        },
+        "name": "ColorLabelGreen",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "green"
+        },
+        "path": [
+          "color",
+          "label",
+          "green"
+        ]
+      },
+      "pink": {
+        "value": "#dc7b9b",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#DC7B9B",
+          "type": "color"
+        },
+        "name": "ColorLabelPink",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "pink"
+        },
+        "path": [
+          "color",
+          "label",
+          "pink"
+        ]
+      },
+      "yellow": {
+        "value": "#e7b727",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#E7B727",
+          "type": "color"
+        },
+        "name": "ColorLabelYellow",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "yellow"
+        },
+        "path": [
+          "color",
+          "label",
+          "yellow"
+        ]
+      },
+      "orange": {
+        "value": "#eaa21a",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#EAA21A",
+          "type": "color"
+        },
+        "name": "ColorLabelOrange",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "orange"
+        },
+        "path": [
+          "color",
+          "label",
+          "orange"
+        ]
+      },
+      "gray": {
+        "value": "#999999",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#999999",
+          "type": "color"
+        },
+        "name": "ColorLabelGray",
+        "attributes": {
+          "category": "color",
+          "type": "label",
+          "item": "gray"
+        },
+        "path": [
+          "color",
+          "label",
+          "gray"
+        ]
+      }
+    },
+    "button": {
+      "primary": {
+        "default": {
           "value": "#73b1c0",
           "type": "color",
           "filePath": "output.json",
@@ -79,90 +354,138 @@ module.exports = {
             "value": "#73B1C0",
             "type": "color"
           },
-          "name": "ColorTextLightPrimary",
+          "name": "ColorButtonPrimaryDefault",
           "attributes": {
             "category": "color",
-            "type": "text",
-            "item": "light",
-            "subitem": "primary"
+            "type": "button",
+            "item": "primary",
+            "subitem": "default"
           },
           "path": [
             "color",
-            "text",
-            "light",
-            "primary"
+            "button",
+            "primary",
+            "default"
           ]
         },
-        "accent": {
-          "value": "#eaa21a",
+        "hover": {
+          "value": "#8abecb",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#EAA21A",
+            "value": "#8ABECB",
             "type": "color"
           },
-          "name": "ColorTextLightAccent",
+          "name": "ColorButtonPrimaryHover",
           "attributes": {
             "category": "color",
-            "type": "text",
-            "item": "light",
-            "subitem": "accent"
+            "type": "button",
+            "item": "primary",
+            "subitem": "hover"
           },
           "path": [
             "color",
-            "text",
-            "light",
-            "accent"
+            "button",
+            "primary",
+            "hover"
           ]
         },
-        "white": {
-          "value": "#ffffff",
+        "outline-default": {
+          "value": "#73b1c0",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#FFFFFF",
+            "value": "#73B1C0",
             "type": "color"
           },
-          "name": "ColorTextLightWhite",
+          "name": "ColorButtonPrimaryOutlineDefault",
           "attributes": {
             "category": "color",
-            "type": "text",
-            "item": "light",
-            "subitem": "white"
+            "type": "button",
+            "item": "primary",
+            "subitem": "outline-default"
           },
           "path": [
             "color",
-            "text",
-            "light",
-            "white"
+            "button",
+            "primary",
+            "outline-default"
           ]
         },
-        "place-holder": {
-          "value": "#bababa",
+        "outline-hover": {
+          "value": "#f4f9fa",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#BABABA",
+            "value": "#F4F9FA",
             "type": "color"
           },
-          "name": "ColorTextLightPlaceHolder",
+          "name": "ColorButtonPrimaryOutlineHover",
           "attributes": {
             "category": "color",
-            "type": "text",
-            "item": "light",
-            "subitem": "place-holder"
+            "type": "button",
+            "item": "primary",
+            "subitem": "outline-hover"
           },
           "path": [
             "color",
-            "text",
-            "light",
-            "place-holder"
+            "button",
+            "primary",
+            "outline-hover"
+          ]
+        },
+        "hover-light": {
+          "value": "#f1fbfd",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F1FBFD",
+            "type": "color"
+          },
+          "name": "ColorButtonPrimaryHoverLight",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "primary",
+            "subitem": "hover-light"
+          },
+          "path": [
+            "color",
+            "button",
+            "primary",
+            "hover-light"
           ]
         },
         "disable": {
+          "value": "#d4e7ed",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#D4E7ED",
+            "type": "color"
+          },
+          "name": "ColorButtonPrimaryDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "primary",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "primary",
+            "disable"
+          ]
+        }
+      },
+      "neutral": {
+        "default": {
           "value": "#e0e0e0",
           "type": "color",
           "filePath": "output.json",
@@ -171,71 +494,161 @@ module.exports = {
             "value": "#E0E0E0",
             "type": "color"
           },
-          "name": "ColorTextLightDisable",
+          "name": "ColorButtonNeutralDefault",
           "attributes": {
             "category": "color",
-            "type": "text",
-            "item": "light",
+            "type": "button",
+            "item": "neutral",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "button",
+            "neutral",
+            "default"
+          ]
+        },
+        "hover": {
+          "value": "#eaeaea",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAEAEA",
+            "type": "color"
+          },
+          "name": "ColorButtonNeutralHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "neutral",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "button",
+            "neutral",
+            "hover"
+          ]
+        },
+        "outline-default": {
+          "value": "#7c7c7c",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#7C7C7C",
+            "type": "color"
+          },
+          "name": "ColorButtonNeutralOutlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "neutral",
+            "subitem": "outline-default"
+          },
+          "path": [
+            "color",
+            "button",
+            "neutral",
+            "outline-default"
+          ]
+        },
+        "outline-hover": {
+          "value": "#f6f6f6",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F6F6F6",
+            "type": "color"
+          },
+          "name": "ColorButtonNeutralOutlineHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "neutral",
+            "subitem": "outline-hover"
+          },
+          "path": [
+            "color",
+            "button",
+            "neutral",
+            "outline-hover"
+          ]
+        },
+        "outline-disable": {
+          "value": "#e0e0e0",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#E0E0E0",
+            "type": "color"
+          },
+          "name": "ColorButtonNeutralOutlineDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "neutral",
+            "subitem": "outline-disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "neutral",
+            "outline-disable"
+          ]
+        },
+        "disable": {
+          "value": "#eaeaea",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAEAEA",
+            "type": "color"
+          },
+          "name": "ColorButtonNeutralDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "neutral",
             "subitem": "disable"
           },
           "path": [
             "color",
-            "text",
-            "light",
+            "button",
+            "neutral",
             "disable"
           ]
         }
-      }
-    },
-    "label": {
-      "light": {
-        "blue": {
-          "value": "#73b1c0",
+      },
+      "danger": {
+        "default": {
+          "value": "#c74444",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#73B1C0",
+            "value": "#C74444",
             "type": "color"
           },
-          "name": "ColorLabelLightBlue",
+          "name": "ColorButtonDangerDefault",
           "attributes": {
             "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "blue"
+            "type": "button",
+            "item": "danger",
+            "subitem": "default"
           },
           "path": [
             "color",
-            "label",
-            "light",
-            "blue"
+            "button",
+            "danger",
+            "default"
           ]
         },
-        "purple": {
-          "value": "#757ec0",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#757EC0",
-            "type": "color"
-          },
-          "name": "ColorLabelLightPurple",
-          "attributes": {
-            "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "purple"
-          },
-          "path": [
-            "color",
-            "label",
-            "light",
-            "purple"
-          ]
-        },
-        "red": {
+        "hover": {
           "value": "#d24623",
           "type": "color",
           "filePath": "output.json",
@@ -244,90 +657,232 @@ module.exports = {
             "value": "#D24623",
             "type": "color"
           },
-          "name": "ColorLabelLightRed",
+          "name": "ColorButtonDangerHover",
           "attributes": {
             "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "red"
+            "type": "button",
+            "item": "danger",
+            "subitem": "hover"
           },
           "path": [
             "color",
-            "label",
-            "light",
-            "red"
+            "button",
+            "danger",
+            "hover"
           ]
         },
-        "green": {
-          "value": "#7ba544",
+        "outline-default": {
+          "value": "#c74444",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#7BA544",
+            "value": "#C74444",
             "type": "color"
           },
-          "name": "ColorLabelLightGreen",
+          "name": "ColorButtonDangerOutlineDefault",
           "attributes": {
             "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "green"
+            "type": "button",
+            "item": "danger",
+            "subitem": "outline-default"
           },
           "path": [
             "color",
-            "label",
-            "light",
-            "green"
+            "button",
+            "danger",
+            "outline-default"
           ]
         },
-        "pink": {
-          "value": "#dc7b9b",
+        "outline-hover": {
+          "value": "#fcf2f4",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#DC7B9B",
+            "value": "#FCF2F4",
             "type": "color"
           },
-          "name": "ColorLabelLightPink",
+          "name": "ColorButtonDangerOutlineHover",
           "attributes": {
             "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "pink"
+            "type": "button",
+            "item": "danger",
+            "subitem": "outline-hover"
           },
           "path": [
             "color",
-            "label",
-            "light",
-            "pink"
+            "button",
+            "danger",
+            "outline-hover"
           ]
         },
-        "yellow": {
-          "value": "#e7b727",
+        "disable": {
+          "value": "#f6e1e1",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#E7B727",
+            "value": "#F6E1E1",
             "type": "color"
           },
-          "name": "ColorLabelLightYellow",
+          "name": "ColorButtonDangerDisable",
           "attributes": {
             "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "yellow"
+            "type": "button",
+            "item": "danger",
+            "subitem": "disable"
           },
           "path": [
             "color",
-            "label",
-            "light",
-            "yellow"
+            "button",
+            "danger",
+            "disable"
+          ]
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "#4b4b4b",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#4B4B4B",
+            "type": "color"
+          },
+          "name": "ColorButtonSecondaryDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "default"
           ]
         },
-        "orange": {
+        "hover": {
+          "value": "#6f6f6f",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#6F6F6F",
+            "type": "color"
+          },
+          "name": "ColorButtonSecondaryHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "hover"
+          ]
+        },
+        "outline-default": {
+          "value": "#4b4b4b",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#4B4B4B",
+            "type": "color"
+          },
+          "name": "ColorButtonSecondaryOutlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "outline-default"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "outline-default"
+          ]
+        },
+        "outline-hover": {
+          "value": "#f6f6f6",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F6F6F6",
+            "type": "color"
+          },
+          "name": "ColorButtonSecondaryOutlineHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "outline-hover"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "outline-hover"
+          ]
+        },
+        "outline-disable": {
+          "value": "#e0e0e0",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#E0E0E0",
+            "type": "color"
+          },
+          "name": "ColorButtonSecondaryOutlineDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "outline-disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "outline-disable"
+          ]
+        },
+        "disable": {
+          "value": "#eaeaea",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAEAEA",
+            "type": "color"
+          },
+          "name": "ColorButtonSecondaryDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "disable"
+          ]
+        }
+      },
+      "accent": {
+        "default": {
           "value": "#eaa21a",
           "type": "color",
           "filePath": "output.json",
@@ -336,909 +891,273 @@ module.exports = {
             "value": "#EAA21A",
             "type": "color"
           },
-          "name": "ColorLabelLightOrange",
+          "name": "ColorButtonAccentDefault",
           "attributes": {
             "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "orange"
+            "type": "button",
+            "item": "accent",
+            "subitem": "default"
           },
           "path": [
             "color",
-            "label",
-            "light",
-            "orange"
+            "button",
+            "accent",
+            "default"
           ]
         },
-        "gray": {
-          "value": "#999999",
+        "hover": {
+          "value": "#eeb549",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#999999",
+            "value": "#EEB549",
             "type": "color"
           },
-          "name": "ColorLabelLightGray",
+          "name": "ColorButtonAccentHover",
           "attributes": {
             "category": "color",
-            "type": "label",
-            "item": "light",
-            "subitem": "gray"
+            "type": "button",
+            "item": "accent",
+            "subitem": "hover"
           },
           "path": [
             "color",
-            "label",
-            "light",
-            "gray"
+            "button",
+            "accent",
+            "hover"
+          ]
+        },
+        "outline-default": {
+          "value": "#eaa21a",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAA21A",
+            "type": "color"
+          },
+          "name": "ColorButtonAccentOutlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "accent",
+            "subitem": "outline-default"
+          },
+          "path": [
+            "color",
+            "button",
+            "accent",
+            "outline-default"
+          ]
+        },
+        "outline-hover": {
+          "value": "#fff7e9",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#FFF7E9",
+            "type": "color"
+          },
+          "name": "ColorButtonAccentOutlineHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "accent",
+            "subitem": "outline-hover"
+          },
+          "path": [
+            "color",
+            "button",
+            "accent",
+            "outline-hover"
+          ]
+        },
+        "disable": {
+          "value": "#f8e1b6",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F8E1B6",
+            "type": "color"
+          },
+          "name": "ColorButtonAccentDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "accent",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "accent",
+            "disable"
           ]
         }
-      }
-    },
-    "button": {
-      "light": {
-        "primary": {
-          "default": {
-            "value": "#73b1c0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#73B1C0",
-              "type": "color"
-            },
-            "name": "ColorButtonLightPrimaryDefault",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "primary",
-              "state": "default"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "primary",
-              "default"
-            ]
+      },
+      "theme-primary": {
+        "default": {
+          "value": "#38aec9",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#38AEC9",
+            "type": "color"
           },
-          "hover": {
-            "value": "#8abecb",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#8ABECB",
-              "type": "color"
-            },
-            "name": "ColorButtonLightPrimaryHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "primary",
-              "state": "hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "primary",
-              "hover"
-            ]
+          "name": "ColorButtonThemePrimaryDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "theme-primary",
+            "subitem": "default"
           },
-          "outline-border": {
-            "value": "#73b1c0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#73B1C0",
-              "type": "color"
-            },
-            "name": "ColorButtonLightPrimaryOutlineBorder",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "primary",
-              "state": "outline-border"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "primary",
-              "outline-border"
-            ]
-          },
-          "outline-hover": {
-            "value": "#f4f9fa",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F4F9FA",
-              "type": "color"
-            },
-            "name": "ColorButtonLightPrimaryOutlineHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "primary",
-              "state": "outline-hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "primary",
-              "outline-hover"
-            ]
-          },
-          "light-hover": {
-            "value": "#f1fbfd",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F1FBFD",
-              "type": "color"
-            },
-            "name": "ColorButtonLightPrimaryLightHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "primary",
-              "state": "light-hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "primary",
-              "light-hover"
-            ]
-          },
-          "disable": {
-            "value": "#d4e7ed",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#D4E7ED",
-              "type": "color"
-            },
-            "name": "ColorButtonLightPrimaryDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "primary",
-              "state": "disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "primary",
-              "disable"
-            ]
-          }
+          "path": [
+            "color",
+            "button",
+            "theme-primary",
+            "default"
+          ]
         },
-        "basic": {
-          "default": {
-            "value": "#e0e0e0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#E0E0E0",
-              "type": "color"
-            },
-            "name": "ColorButtonLightBasicDefault",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "basic",
-              "state": "default"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "basic",
-              "default"
-            ]
+        "hover": {
+          "value": "#60bed4",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#60BED4",
+            "type": "color"
           },
-          "hover": {
-            "value": "#eaeaea",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#EAEAEA",
-              "type": "color"
-            },
-            "name": "ColorButtonLightBasicHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "basic",
-              "state": "hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "basic",
-              "hover"
-            ]
+          "name": "ColorButtonThemePrimaryHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "theme-primary",
+            "subitem": "hover"
           },
-          "outline-border": {
-            "value": "#7c7c7c",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#7C7C7C",
-              "type": "color"
-            },
-            "name": "ColorButtonLightBasicOutlineBorder",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "basic",
-              "state": "outline-border"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "basic",
-              "outline-border"
-            ]
-          },
-          "outline-hover": {
-            "value": "#f6f6f6",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F6F6F6",
-              "type": "color"
-            },
-            "name": "ColorButtonLightBasicOutlineHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "basic",
-              "state": "outline-hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "basic",
-              "outline-hover"
-            ]
-          },
-          "outline-disable": {
-            "value": "#e0e0e0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#E0E0E0",
-              "type": "color"
-            },
-            "name": "ColorButtonLightBasicOutlineDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "basic",
-              "state": "outline-disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "basic",
-              "outline-disable"
-            ]
-          },
-          "disable": {
-            "value": "#eaeaea",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#EAEAEA",
-              "type": "color"
-            },
-            "name": "ColorButtonLightBasicDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "basic",
-              "state": "disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "basic",
-              "disable"
-            ]
-          }
+          "path": [
+            "color",
+            "button",
+            "theme-primary",
+            "hover"
+          ]
         },
-        "danger": {
-          "default": {
-            "value": "#c74444",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#C74444",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDangerDefault",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "danger",
-              "state": "default"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "danger",
-              "default"
-            ]
+        "outline-default": {
+          "value": "#38aec9",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#38AEC9",
+            "type": "color"
           },
-          "hover": {
-            "value": "#d24623",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#D24623",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDangerHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "danger",
-              "state": "hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "danger",
-              "hover"
-            ]
+          "name": "ColorButtonThemePrimaryOutlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "theme-primary",
+            "subitem": "outline-default"
           },
-          "outline-border": {
-            "value": "#c74444",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#C74444",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDangerOutlineBorder",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "danger",
-              "state": "outline-border"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "danger",
-              "outline-border"
-            ]
-          },
-          "outline-hover": {
-            "value": "#fcf2f4",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#FCF2F4",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDangerOutlineHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "danger",
-              "state": "outline-hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "danger",
-              "outline-hover"
-            ]
-          },
-          "disable": {
-            "value": "#f6e1e1",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F6E1E1",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDangerDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "danger",
-              "state": "disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "danger",
-              "disable"
-            ]
-          }
+          "path": [
+            "color",
+            "button",
+            "theme-primary",
+            "outline-default"
+          ]
         },
-        "secondary": {
-          "default": {
-            "value": "#4b4b4b",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#4B4B4B",
-              "type": "color"
-            },
-            "name": "ColorButtonLightSecondaryDefault",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "secondary",
-              "state": "default"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "secondary",
-              "default"
-            ]
+        "outline-hover": {
+          "value": "#f1fbfd",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F1FBFD",
+            "type": "color"
           },
-          "hover": {
-            "value": "#6f6f6f",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#6F6F6F",
-              "type": "color"
-            },
-            "name": "ColorButtonLightSecondaryHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "secondary",
-              "state": "hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "secondary",
-              "hover"
-            ]
+          "name": "ColorButtonThemePrimaryOutlineHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "theme-primary",
+            "subitem": "outline-hover"
           },
-          "outline-border": {
-            "value": "#4b4b4b",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#4B4B4B",
-              "type": "color"
-            },
-            "name": "ColorButtonLightSecondaryOutlineBorder",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "secondary",
-              "state": "outline-border"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "secondary",
-              "outline-border"
-            ]
-          },
-          "outline-hover": {
-            "value": "#f6f6f6",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F6F6F6",
-              "type": "color"
-            },
-            "name": "ColorButtonLightSecondaryOutlineHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "secondary",
-              "state": "outline-hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "secondary",
-              "outline-hover"
-            ]
-          },
-          "outline-disable": {
-            "value": "#e0e0e0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#E0E0E0",
-              "type": "color"
-            },
-            "name": "ColorButtonLightSecondaryOutlineDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "secondary",
-              "state": "outline-disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "secondary",
-              "outline-disable"
-            ]
-          },
-          "disable": {
-            "value": "#eaeaea",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#EAEAEA",
-              "type": "color"
-            },
-            "name": "ColorButtonLightSecondaryDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "secondary",
-              "state": "disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "secondary",
-              "disable"
-            ]
-          }
+          "path": [
+            "color",
+            "button",
+            "theme-primary",
+            "outline-hover"
+          ]
         },
-        "accent": {
-          "default": {
-            "value": "#eaa21a",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#EAA21A",
-              "type": "color"
-            },
-            "name": "ColorButtonLightAccentDefault",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "accent",
-              "state": "default"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "accent",
-              "default"
-            ]
+        "outline-disable": {
+          "value": "#d7eff4",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#D7EFF4",
+            "type": "color"
           },
-          "hover": {
-            "value": "#eeb549",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#EEB549",
-              "type": "color"
-            },
-            "name": "ColorButtonLightAccentHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "accent",
-              "state": "hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "accent",
-              "hover"
-            ]
+          "name": "ColorButtonThemePrimaryOutlineDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "theme-primary",
+            "subitem": "outline-disable"
           },
-          "outline-border": {
-            "value": "#eaa21a",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#EAA21A",
-              "type": "color"
-            },
-            "name": "ColorButtonLightAccentOutlineBorder",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "accent",
-              "state": "outline-border"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "accent",
-              "outline-border"
-            ]
-          },
-          "outline-hover": {
-            "value": "#fff7e9",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFF7E9",
-              "type": "color"
-            },
-            "name": "ColorButtonLightAccentOutlineHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "accent",
-              "state": "outline-hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "accent",
-              "outline-hover"
-            ]
-          },
-          "disable": {
-            "value": "#f8e1b6",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F8E1B6",
-              "type": "color"
-            },
-            "name": "ColorButtonLightAccentDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "accent",
-              "state": "disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "accent",
-              "disable"
-            ]
-          }
+          "path": [
+            "color",
+            "button",
+            "theme-primary",
+            "outline-disable"
+          ]
         },
-        "default-thema": {
-          "default": {
-            "value": "#38aec9",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#38AEC9",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDefaultThemaDefault",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "default-thema",
-              "state": "default"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "default-thema",
-              "default"
-            ]
+        "disable": {
+          "value": "#d7eff4",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#D7EFF4",
+            "type": "color"
           },
-          "hover": {
-            "value": "#60bed4",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#60BED4",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDefaultThemaHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "default-thema",
-              "state": "hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "default-thema",
-              "hover"
-            ]
+          "name": "ColorButtonThemePrimaryDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "theme-primary",
+            "subitem": "disable"
           },
-          "outline-border": {
-            "value": "#38aec9",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#38AEC9",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDefaultThemaOutlineBorder",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "default-thema",
-              "state": "outline-border"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "default-thema",
-              "outline-border"
-            ]
-          },
-          "outline-hover": {
-            "value": "#f1fbfd",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F1FBFD",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDefaultThemaOutlineHover",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "default-thema",
-              "state": "outline-hover"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "default-thema",
-              "outline-hover"
-            ]
-          },
-          "outline-disable": {
-            "value": "#d7eff4",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#D7EFF4",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDefaultThemaOutlineDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "default-thema",
-              "state": "outline-disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "default-thema",
-              "outline-disable"
-            ]
-          },
-          "disable": {
-            "value": "#d7eff4",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#D7EFF4",
-              "type": "color"
-            },
-            "name": "ColorButtonLightDefaultThemaDisable",
-            "attributes": {
-              "category": "color",
-              "type": "button",
-              "item": "light",
-              "subitem": "default-thema",
-              "state": "disable"
-            },
-            "path": [
-              "color",
-              "button",
-              "light",
-              "default-thema",
-              "disable"
-            ]
-          }
+          "path": [
+            "color",
+            "button",
+            "theme-primary",
+            "disable"
+          ]
         }
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "name": "ColorButtonWhite",
+        "attributes": {
+          "category": "color",
+          "type": "button",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "button",
+          "white"
+        ]
       }
     },
     "bland": {
@@ -1307,172 +1226,355 @@ module.exports = {
       }
     },
     "calender": {
-      "light": {
-        "weekday": {
+      "weekday": {
+        "value": "#333333",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
           "value": "#333333",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#333333",
-            "type": "color"
-          },
-          "name": "ColorCalenderLightWeekday",
-          "attributes": {
-            "category": "color",
-            "type": "calender",
-            "item": "light",
-            "subitem": "weekday"
-          },
-          "path": [
-            "color",
-            "calender",
-            "light",
-            "weekday"
-          ]
+          "type": "color"
         },
-        "weekday-othermonth": {
-          "value": "#bababa",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#BABABA",
-            "type": "color"
-          },
-          "name": "ColorCalenderLightWeekdayOthermonth",
-          "attributes": {
-            "category": "color",
-            "type": "calender",
-            "item": "light",
-            "subitem": "weekday-othermonth"
-          },
-          "path": [
-            "color",
-            "calender",
-            "light",
-            "weekday-othermonth"
-          ]
+        "name": "ColorCalenderWeekday",
+        "attributes": {
+          "category": "color",
+          "type": "calender",
+          "item": "weekday"
         },
-        "sunday": {
-          "value": "#d24623",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#D24623",
-            "type": "color"
-          },
-          "name": "ColorCalenderLightSunday",
-          "attributes": {
-            "category": "color",
-            "type": "calender",
-            "item": "light",
-            "subitem": "sunday"
-          },
-          "path": [
-            "color",
-            "calender",
-            "light",
-            "sunday"
-          ]
+        "path": [
+          "color",
+          "calender",
+          "weekday"
+        ]
+      },
+      "weekday-othermonth": {
+        "value": "#bababa",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#BABABA",
+          "type": "color"
         },
-        "sunday-othermonth": {
-          "value": "#f1bbae",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#F1BBAE",
-            "type": "color"
-          },
-          "name": "ColorCalenderLightSundayOthermonth",
-          "attributes": {
-            "category": "color",
-            "type": "calender",
-            "item": "light",
-            "subitem": "sunday-othermonth"
-          },
-          "path": [
-            "color",
-            "calender",
-            "light",
-            "sunday-othermonth"
-          ]
+        "name": "ColorCalenderWeekdayOthermonth",
+        "attributes": {
+          "category": "color",
+          "type": "calender",
+          "item": "weekday-othermonth"
         },
-        "saturday": {
-          "value": "#3989ce",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#3989CE",
-            "type": "color"
-          },
-          "name": "ColorCalenderLightSaturday",
-          "attributes": {
-            "category": "color",
-            "type": "calender",
-            "item": "light",
-            "subitem": "saturday"
-          },
-          "path": [
-            "color",
-            "calender",
-            "light",
-            "saturday"
-          ]
+        "path": [
+          "color",
+          "calender",
+          "weekday-othermonth"
+        ]
+      },
+      "sunday": {
+        "value": "#d24623",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#D24623",
+          "type": "color"
         },
-        "saturday-othermonth": {
-          "value": "#a6cae9",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#A6CAE9",
-            "type": "color"
-          },
-          "name": "ColorCalenderLightSaturdayOthermonth",
-          "attributes": {
-            "category": "color",
-            "type": "calender",
-            "item": "light",
-            "subitem": "saturday-othermonth"
-          },
-          "path": [
-            "color",
-            "calender",
-            "light",
-            "saturday-othermonth"
-          ]
-        }
+        "name": "ColorCalenderSunday",
+        "attributes": {
+          "category": "color",
+          "type": "calender",
+          "item": "sunday"
+        },
+        "path": [
+          "color",
+          "calender",
+          "sunday"
+        ]
+      },
+      "sunday-othermonth": {
+        "value": "#f1bbae",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#F1BBAE",
+          "type": "color"
+        },
+        "name": "ColorCalenderSundayOthermonth",
+        "attributes": {
+          "category": "color",
+          "type": "calender",
+          "item": "sunday-othermonth"
+        },
+        "path": [
+          "color",
+          "calender",
+          "sunday-othermonth"
+        ]
+      },
+      "saturday": {
+        "value": "#3989ce",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#3989CE",
+          "type": "color"
+        },
+        "name": "ColorCalenderSaturday",
+        "attributes": {
+          "category": "color",
+          "type": "calender",
+          "item": "saturday"
+        },
+        "path": [
+          "color",
+          "calender",
+          "saturday"
+        ]
+      },
+      "saturday-othermonth": {
+        "value": "#a6cae9",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#A6CAE9",
+          "type": "color"
+        },
+        "name": "ColorCalenderSaturdayOthermonth",
+        "attributes": {
+          "category": "color",
+          "type": "calender",
+          "item": "saturday-othermonth"
+        },
+        "path": [
+          "color",
+          "calender",
+          "saturday-othermonth"
+        ]
       }
     },
     "icon": {
-      "light": {
-        "default": {
+      "default": {
+        "value": "#333333",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
           "value": "#333333",
+          "type": "color"
+        },
+        "name": "ColorIconDefault",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "default"
+        },
+        "path": [
+          "color",
+          "icon",
+          "default"
+        ]
+      },
+      "primary": {
+        "value": "#73b1c0",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#73B1C0",
+          "type": "color"
+        },
+        "name": "ColorIconPrimary",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "primary"
+        },
+        "path": [
+          "color",
+          "icon",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#d24623",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#D24623",
+          "type": "color"
+        },
+        "name": "ColorIconSecondary",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "secondary"
+        },
+        "path": [
+          "color",
+          "icon",
+          "secondary"
+        ]
+      },
+      "logic": {
+        "value": "#e7b727",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#E7B727",
+          "type": "color"
+        },
+        "name": "ColorIconLogic",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "logic"
+        },
+        "path": [
+          "color",
+          "icon",
+          "logic"
+        ]
+      },
+      "basic": {
+        "value": "#4b4b4b",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#4B4B4B",
+          "type": "color"
+        },
+        "name": "ColorIconBasic",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "basic"
+        },
+        "path": [
+          "color",
+          "icon",
+          "basic"
+        ]
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "name": "ColorIconWhite",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "icon",
+          "white"
+        ]
+      }
+    },
+    "background": {
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "name": "ColorBackgroundWhite",
+        "attributes": {
+          "category": "color",
+          "type": "background",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "background",
+          "white"
+        ]
+      },
+      "neutral": {
+        "primary": {
+          "value": "#f6f6f6",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#333333",
+            "value": "#F6F6F6",
             "type": "color"
           },
-          "name": "ColorIconLightDefault",
+          "name": "ColorBackgroundNeutralPrimary",
           "attributes": {
             "category": "color",
-            "type": "icon",
-            "item": "light",
-            "subitem": "default"
+            "type": "background",
+            "item": "neutral",
+            "subitem": "primary"
           },
           "path": [
             "color",
-            "icon",
-            "light",
-            "default"
+            "background",
+            "neutral",
+            "primary"
           ]
         },
+        "secondary": {
+          "value": "#e0e0e0",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#E0E0E0",
+            "type": "color"
+          },
+          "name": "ColorBackgroundNeutralSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "background",
+            "item": "neutral",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "background",
+            "neutral",
+            "secondary"
+          ]
+        },
+        "tertiary": {
+          "value": "#999999",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#999999",
+            "type": "color"
+          },
+          "name": "ColorBackgroundNeutralTertiary",
+          "attributes": {
+            "category": "color",
+            "type": "background",
+            "item": "neutral",
+            "subitem": "tertiary"
+          },
+          "path": [
+            "color",
+            "background",
+            "neutral",
+            "tertiary"
+          ]
+        }
+      },
+      "default": {
         "primary": {
           "value": "#73b1c0",
           "type": "color",
@@ -1482,452 +1584,232 @@ module.exports = {
             "value": "#73B1C0",
             "type": "color"
           },
-          "name": "ColorIconLightPrimary",
+          "name": "ColorBackgroundDefaultPrimary",
           "attributes": {
             "category": "color",
-            "type": "icon",
-            "item": "light",
+            "type": "background",
+            "item": "default",
             "subitem": "primary"
           },
           "path": [
             "color",
-            "icon",
-            "light",
+            "background",
+            "default",
             "primary"
           ]
         },
         "secondary": {
-          "value": "#d24623",
+          "value": "#d4e7ed",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#D24623",
+            "value": "#D4E7ED",
             "type": "color"
           },
-          "name": "ColorIconLightSecondary",
+          "name": "ColorBackgroundDefaultSecondary",
           "attributes": {
             "category": "color",
-            "type": "icon",
-            "item": "light",
+            "type": "background",
+            "item": "default",
             "subitem": "secondary"
           },
           "path": [
             "color",
-            "icon",
-            "light",
+            "background",
+            "default",
             "secondary"
           ]
         },
-        "logic": {
-          "value": "#e7b727",
+        "tertiary": {
+          "value": "#f1fbfd",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#E7B727",
+            "value": "#F1FBFD",
             "type": "color"
           },
-          "name": "ColorIconLightLogic",
-          "attributes": {
-            "category": "color",
-            "type": "icon",
-            "item": "light",
-            "subitem": "logic"
-          },
-          "path": [
-            "color",
-            "icon",
-            "light",
-            "logic"
-          ]
-        },
-        "basic": {
-          "value": "#4b4b4b",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#4B4B4B",
-            "type": "color"
-          },
-          "name": "ColorIconLightBasic",
-          "attributes": {
-            "category": "color",
-            "type": "icon",
-            "item": "light",
-            "subitem": "basic"
-          },
-          "path": [
-            "color",
-            "icon",
-            "light",
-            "basic"
-          ]
-        }
-      }
-    },
-    "background": {
-      "light": {
-        "white": {
-          "value": "#ffffff",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#FFFFFF",
-            "type": "color"
-          },
-          "name": "ColorBackgroundLightWhite",
+          "name": "ColorBackgroundDefaultTertiary",
           "attributes": {
             "category": "color",
             "type": "background",
-            "item": "light",
-            "subitem": "white"
+            "item": "default",
+            "subitem": "tertiary"
           },
           "path": [
             "color",
             "background",
-            "light",
-            "white"
+            "default",
+            "tertiary"
           ]
-        },
-        "basic": {
-          "primary": {
-            "value": "#f6f6f6",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F6F6F6",
-              "type": "color"
-            },
-            "name": "ColorBackgroundLightBasicPrimary",
-            "attributes": {
-              "category": "color",
-              "type": "background",
-              "item": "light",
-              "subitem": "basic",
-              "state": "primary"
-            },
-            "path": [
-              "color",
-              "background",
-              "light",
-              "basic",
-              "primary"
-            ]
-          },
-          "secondary": {
-            "value": "#e0e0e0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#E0E0E0",
-              "type": "color"
-            },
-            "name": "ColorBackgroundLightBasicSecondary",
-            "attributes": {
-              "category": "color",
-              "type": "background",
-              "item": "light",
-              "subitem": "basic",
-              "state": "secondary"
-            },
-            "path": [
-              "color",
-              "background",
-              "light",
-              "basic",
-              "secondary"
-            ]
-          },
-          "tertiary": {
-            "value": "#999999",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#999999",
-              "type": "color"
-            },
-            "name": "ColorBackgroundLightBasicTertiary",
-            "attributes": {
-              "category": "color",
-              "type": "background",
-              "item": "light",
-              "subitem": "basic",
-              "state": "tertiary"
-            },
-            "path": [
-              "color",
-              "background",
-              "light",
-              "basic",
-              "tertiary"
-            ]
-          }
-        },
-        "default": {
-          "primary": {
-            "value": "#73b1c0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#73B1C0",
-              "type": "color"
-            },
-            "name": "ColorBackgroundLightDefaultPrimary",
-            "attributes": {
-              "category": "color",
-              "type": "background",
-              "item": "light",
-              "subitem": "default",
-              "state": "primary"
-            },
-            "path": [
-              "color",
-              "background",
-              "light",
-              "default",
-              "primary"
-            ]
-          },
-          "secondary": {
-            "value": "#d4e7ed",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#D4E7ED",
-              "type": "color"
-            },
-            "name": "ColorBackgroundLightDefaultSecondary",
-            "attributes": {
-              "category": "color",
-              "type": "background",
-              "item": "light",
-              "subitem": "default",
-              "state": "secondary"
-            },
-            "path": [
-              "color",
-              "background",
-              "light",
-              "default",
-              "secondary"
-            ]
-          },
-          "tertiary": {
-            "value": "#f1fbfd",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#F1FBFD",
-              "type": "color"
-            },
-            "name": "ColorBackgroundLightDefaultTertiary",
-            "attributes": {
-              "category": "color",
-              "type": "background",
-              "item": "light",
-              "subitem": "default",
-              "state": "tertiary"
-            },
-            "path": [
-              "color",
-              "background",
-              "light",
-              "default",
-              "tertiary"
-            ]
-          }
         }
       }
     },
     "border": {
-      "light": {
-        "basic": {
-          "primary": {
-            "value": "#bababa",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#BABABA",
-              "type": "color"
-            },
-            "name": "ColorBorderLightBasicPrimary",
-            "attributes": {
-              "category": "color",
-              "type": "border",
-              "item": "light",
-              "subitem": "basic",
-              "state": "primary"
-            },
-            "path": [
-              "color",
-              "border",
-              "light",
-              "basic",
-              "primary"
-            ]
-          },
-          "secondary": {
-            "value": "#7c7c7c",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#7C7C7C",
-              "type": "color"
-            },
-            "name": "ColorBorderLightBasicSecondary",
-            "attributes": {
-              "category": "color",
-              "type": "border",
-              "item": "light",
-              "subitem": "basic",
-              "state": "secondary"
-            },
-            "path": [
-              "color",
-              "border",
-              "light",
-              "basic",
-              "secondary"
-            ]
-          },
-          "tertiary": {
-            "value": "#e0e0e0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#E0E0E0",
-              "type": "color"
-            },
-            "name": "ColorBorderLightBasicTertiary",
-            "attributes": {
-              "category": "color",
-              "type": "border",
-              "item": "light",
-              "subitem": "basic",
-              "state": "tertiary"
-            },
-            "path": [
-              "color",
-              "border",
-              "light",
-              "basic",
-              "tertiary"
-            ]
-          }
-        },
-        "default-thema": {
-          "primary": {
-            "value": "#38aec9",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#38AEC9",
-              "type": "color"
-            },
-            "name": "ColorBorderLightDefaultThemaPrimary",
-            "attributes": {
-              "category": "color",
-              "type": "border",
-              "item": "light",
-              "subitem": "default-thema",
-              "state": "primary"
-            },
-            "path": [
-              "color",
-              "border",
-              "light",
-              "default-thema",
-              "primary"
-            ]
-          }
-        },
-        "focus": {
-          "value": "#0054c5",
+      "neutral": {
+        "primary": {
+          "value": "#bababa",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#0054C5",
+            "value": "#BABABA",
             "type": "color"
           },
-          "name": "ColorBorderLightFocus",
+          "name": "ColorBorderNeutralPrimary",
           "attributes": {
             "category": "color",
             "type": "border",
-            "item": "light",
-            "subitem": "focus"
+            "item": "neutral",
+            "subitem": "primary"
           },
           "path": [
             "color",
             "border",
-            "light",
-            "focus"
+            "neutral",
+            "primary"
           ]
         },
-        "default": {
-          "primary": {
-            "value": "#73b1c0",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#73B1C0",
-              "type": "color"
-            },
-            "name": "ColorBorderLightDefaultPrimary",
-            "attributes": {
-              "category": "color",
-              "type": "border",
-              "item": "light",
-              "subitem": "default",
-              "state": "primary"
-            },
-            "path": [
-              "color",
-              "border",
-              "light",
-              "default",
-              "primary"
-            ]
+        "secondary": {
+          "value": "#7c7c7c",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#7C7C7C",
+            "type": "color"
           },
-          "secondary": {
-            "value": "#d4e7ed",
-            "type": "color",
-            "filePath": "output.json",
-            "isSource": true,
-            "original": {
-              "value": "#D4E7ED",
-              "type": "color"
-            },
-            "name": "ColorBorderLightDefaultSecondary",
-            "attributes": {
-              "category": "color",
-              "type": "border",
-              "item": "light",
-              "subitem": "default",
-              "state": "secondary"
-            },
-            "path": [
-              "color",
-              "border",
-              "light",
-              "default",
-              "secondary"
-            ]
-          }
+          "name": "ColorBorderNeutralSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "neutral",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "border",
+            "neutral",
+            "secondary"
+          ]
+        },
+        "tertiary": {
+          "value": "#e0e0e0",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#E0E0E0",
+            "type": "color"
+          },
+          "name": "ColorBorderNeutralTertiary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "neutral",
+            "subitem": "tertiary"
+          },
+          "path": [
+            "color",
+            "border",
+            "neutral",
+            "tertiary"
+          ]
+        }
+      },
+      "theme-primary": {
+        "primary": {
+          "value": "#38aec9",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#38AEC9",
+            "type": "color"
+          },
+          "name": "ColorBorderThemePrimaryPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "theme-primary",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "border",
+            "theme-primary",
+            "primary"
+          ]
+        }
+      },
+      "focus": {
+        "value": "#0054c5",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#0054C5",
+          "type": "color"
+        },
+        "name": "ColorBorderFocus",
+        "attributes": {
+          "category": "color",
+          "type": "border",
+          "item": "focus"
+        },
+        "path": [
+          "color",
+          "border",
+          "focus"
+        ]
+      },
+      "default": {
+        "primary": {
+          "value": "#73b1c0",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#73B1C0",
+            "type": "color"
+          },
+          "name": "ColorBorderDefaultPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "default",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "border",
+            "default",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#d4e7ed",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#D4E7ED",
+            "type": "color"
+          },
+          "name": "ColorBorderDefaultSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "default",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "border",
+            "default",
+            "secondary"
+          ]
         }
       }
     },
