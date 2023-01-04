@@ -2,9 +2,10 @@ name: publish design tokens
 
 on:
   push:
+    branches:
+      - main
     paths:
       - ".github/workflows/publish.yml"
-      - "tokens.json"
       - "src/tokens/**"
 
 jobs:
@@ -16,12 +17,6 @@ jobs:
         with:
           node-version: "16.x"
           registry-url: https://npm.pkg.github.com/
-
-      - name: install node_modules
-        run: yarn
-
-      - name: build tokens
-        run: yarn token
 
       - name: publish to npm
         run: yarn publish
