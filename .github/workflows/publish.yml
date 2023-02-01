@@ -9,7 +9,7 @@ on:
       - "src/tokens/**"
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,7 +19,15 @@ jobs:
           registry-url: https://npm.pkg.github.com/
 
       - name: publish to npm
-        run: yarn publish
+        run: |
+          CURRENT_VERSION=$(npm view . version)
+          EXISTING_VERSION=$(npm view package.json@$CURRENT_VERSION version)
+          if [ "$CURRENT_VERSION" != "$EXISTING_VERSION" ]; then
+            echo "Current version ($CURRENT_VERSION) does not match existing version ($EXISTING_VERSION), publishing package..."
+            yarn publish
+          else
+            echo "Current version ($CURRENT_VERSION) already exists, skipping publish..."
+          fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
