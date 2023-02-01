@@ -2,6 +2,8 @@ name: publish design tokens
 
 on:
   push:
+    branches:
+      - main
     paths:
       - ".github/workflows/publish.yml"
       - "src/tokens/**"
@@ -25,8 +27,7 @@ jobs:
           EXISTING_VERSION=${{ env.VERSION }}
           if [ "$CURRENT_VERSION" != "$EXISTING_VERSION" ]; then
             echo "Current version ($CURRENT_VERSION) does not match existing version ($EXISTING_VERSION), publishing package..."
-            npm ci
-            npm publish
+            yarn publish
           else
             echo "Current version ($CURRENT_VERSION) already exists, skipping publish..."
           fi
