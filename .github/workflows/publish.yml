@@ -7,32 +7,31 @@ on:
       - "src/tokens/**"
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
-          always-auth: true
           registry-url: https://npm.pkg.github.com/
-          scope: '@creativesurveyapp'
+
+      - name: set version to env
+        run: node -p -e '`VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
 
       - name: publish to npm
         run: |
           CURRENT_VERSION=$(npm view creativesurveyapp/design-tokens version)
-          EXISTING_VERSION=$(npm view package.json@$CURRENT_VERSION version)
+          EXISTING_VERSION=${{ env.VERSION }}
           if [ "$CURRENT_VERSION" != "$EXISTING_VERSION" ]; then
             echo "Current version ($CURRENT_VERSION) does not match existing version ($EXISTING_VERSION), publishing package..."
-            yarn publish
+            npm ci
+            npm publish
           else
             echo "Current version ($CURRENT_VERSION) already exists, skipping publish..."
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: set version to env
-        run: node -p -e '`VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
 
       - name: add version tag
         uses: pkgdeps/git-tag-action@v2
