@@ -2,8 +2,6 @@ name: publish design tokens
 
 on:
   push:
-    branches:
-      - main
     paths:
       - ".github/workflows/publish.yml"
       - "src/tokens/**"
@@ -16,7 +14,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
+          always-auth: true
           registry-url: https://npm.pkg.github.com/
+          scope: '@creativesurveyapp'
 
       - name: publish to npm
         run: |
