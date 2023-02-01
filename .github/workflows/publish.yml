@@ -21,7 +21,7 @@ jobs:
 
       - name: publish to npm
         run: |
-          CURRENT_VERSION=$(npm view creativesurveyapp/design-tokens version)
+          CURRENT_VERSION=$(npm view @creativesurveyapp/design-tokens version)
           EXISTING_VERSION=${{ env.VERSION }}
           if [ "$CURRENT_VERSION" != "$EXISTING_VERSION" ]; then
             echo "Current version ($CURRENT_VERSION) does not match existing version ($EXISTING_VERSION), publishing package..."
