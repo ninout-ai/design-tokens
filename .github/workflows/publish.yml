@@ -7,9 +7,10 @@ on:
     paths:
       - ".github/workflows/publish.yml"
       - "src/tokens/**"
+      - "package.json"
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
