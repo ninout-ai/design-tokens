@@ -23,7 +23,7 @@ jobs:
         run: yarn token
 
       - name: get pull request number
-        run: echo ${{ env.GITHUB_REF }} | awk -F'/' '{print $3}'
+        run: echo "pr_number=$(${{ env.GITHUB_REF }} | awk -F'/' '{print $3}')" >> $GITHUB_OUTPUT
         id: pr_number
 
       - name: commit built tokens
