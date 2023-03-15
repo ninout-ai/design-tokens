@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Dec 2022 01:34:47 GMT
+ * Generated on Wed, 15 Mar 2023 06:21:09 GMT
  */
 
 export default tokens;
@@ -33,9 +33,13 @@ declare const tokens: {
       "accent": DesignToken,
       "white": DesignToken,
       "place-holder": DesignToken,
-      "disable": DesignToken
+      "disable": DesignToken,
+      "label-text": {
+        "primary": DesignToken,
+        "secondary": DesignToken
+      }
     },
-    "label": {
+    "label-folder": {
       "blue": DesignToken,
       "purple": DesignToken,
       "red": DesignToken,
@@ -49,50 +53,61 @@ declare const tokens: {
       "primary": {
         "default": DesignToken,
         "hover": DesignToken,
+        "disable": DesignToken,
         "outline-default": DesignToken,
         "outline-hover": DesignToken,
         "hover-light": DesignToken,
-        "disable": DesignToken
+        "outline-disable": DesignToken
       },
       "neutral": {
         "default": DesignToken,
         "hover": DesignToken,
+        "disable": DesignToken,
         "outline-default": DesignToken,
         "outline-hover": DesignToken,
-        "outline-disable": DesignToken,
-        "disable": DesignToken
+        "outline-disable": DesignToken
       },
       "danger": {
         "default": DesignToken,
         "hover": DesignToken,
+        "disable": DesignToken,
         "outline-default": DesignToken,
         "outline-hover": DesignToken,
-        "disable": DesignToken
+        "outline-disable": DesignToken
       },
       "secondary": {
         "default": DesignToken,
         "hover": DesignToken,
+        "disable": DesignToken,
         "outline-default": DesignToken,
         "outline-hover": DesignToken,
-        "outline-disable": DesignToken,
-        "disable": DesignToken
+        "outline-disable": DesignToken
       },
       "accent": {
         "default": DesignToken,
         "hover": DesignToken,
+        "disable": DesignToken,
         "outline-default": DesignToken,
         "outline-hover": DesignToken,
-        "disable": DesignToken
+        "outline-disable": DesignToken
       },
       "theme-primary": {
+        "default": DesignToken,
+        "hover": DesignToken,
+        "disable": DesignToken,
+        "outline-default": DesignToken,
+        "outline-hover": DesignToken,
+        "outline-disable": DesignToken
+      },
+      "white": DesignToken,
+      "tertiary": {
         "default": DesignToken,
         "hover": DesignToken,
         "outline-default": DesignToken,
         "outline-hover": DesignToken,
         "outline-disable": DesignToken,
         "disable": DesignToken
-      },
-      "white": DesignToken
+      }
     },
     "bland": {
       "cs-orange": DesignToken,
@@ -111,21 +126,32 @@ declare const tokens: {
       "default": DesignToken,
       "primary": DesignToken,
       "secondary": DesignToken,
+      "accent": DesignToken,
       "logic": DesignToken,
       "basic": DesignToken,
-      "white": DesignToken
+      "white": DesignToken,
+      "disable": DesignToken,
+      "balloon": DesignToken
     },
-    "background": {
+    "surface": {
       "white": DesignToken,
       "neutral": {
         "primary": DesignToken,
         "secondary": DesignToken,
-        "tertiary": DesignToken
+        "tertiary": DesignToken,
+        "quaternary": DesignToken
       },
-      "default": {
+      "normal": {
         "primary": DesignToken,
         "secondary": DesignToken,
         "tertiary": DesignToken
+      },
+      "theme-primary": {
+        "primary": DesignToken
+      },
+      "accent": {
+        "primary": DesignToken,
+        "secondary": DesignToken
       }
     },
     "border": {
@@ -137,11 +163,12 @@ declare const tokens: {
       "theme-primary": {
         "primary": DesignToken
       },
-      "focus": DesignToken,
-      "default": {
+      "normal": {
         "primary": DesignToken,
         "secondary": DesignToken
-      }
+      },
+      "focus": DesignToken,
+      "white": DesignToken
     },
     "status": {
       "danger": DesignToken,
@@ -227,7 +254,8 @@ declare const tokens: {
     "xl": DesignToken,
     "xxl": DesignToken,
     "xxxl": DesignToken,
-    "standard": DesignToken
+    "standard": DesignToken,
+    "legacy-standard": DesignToken
   },
   "border-width": {
     "1": DesignToken,
@@ -236,21 +264,58 @@ declare const tokens: {
     "m": DesignToken
   },
   "typography": {
+    "question": {
+      "default": DesignToken,
+      "size1": DesignToken,
+      "size2": DesignToken,
+      "size3": DesignToken,
+      "size4": DesignToken,
+      "size5": DesignToken,
+      "size6": DesignToken,
+      "size7": DesignToken
+    }
+  },
+  "z-index": {
+    "0": DesignToken,
+    "1": DesignToken,
+    "3": DesignToken,
+    "5": DesignToken,
+    "10": DesignToken,
+    "11": DesignToken,
+    "12": DesignToken,
+    "100": DesignToken,
+    "800": DesignToken,
+    "805": DesignToken,
+    "810": DesignToken,
+    "815": DesignToken,
+    "900": DesignToken,
+    "1000": DesignToken,
+    "9999": DesignToken,
+    "top": DesignToken,
+    "overlap": DesignToken,
+    "notification": DesignToken,
+    "modal-secondary-contents": DesignToken,
+    "modal-secondary": DesignToken,
+    "modal-primary-contents": DesignToken,
+    "modal-primary": DesignToken,
+    "header": DesignToken,
     "default": DesignToken,
-    "size1": DesignToken,
-    "size2": DesignToken,
-    "size3": DesignToken,
-    "size4": DesignToken,
-    "size5": DesignToken,
-    "size6": DesignToken,
-    "size7": DesignToken
+    "bottom": DesignToken,
+    "legacy_modal-tertiary": DesignToken,
+    "legacy_modal-secondary": DesignToken,
+    "legacy_modal-primary": DesignToken,
+    "legacy_notification": DesignToken,
+    "legacy_header": DesignToken,
+    "legacy_alert": DesignToken,
+    "auto": DesignToken,
+    "minus100": DesignToken
   },
   "font-weight": {
-    "300": DesignToken,
-    "600": DesignToken
+    "W3": DesignToken,
+    "W6": DesignToken
   },
   "font-family": {
-    "hiragino-kaku-gothic-pron": DesignToken
+    "hiragino-sans": DesignToken
   },
   "font-size": {
     "10": DesignToken,
@@ -260,10 +325,10 @@ declare const tokens: {
     "15": DesignToken,
     "16": DesignToken,
     "18": DesignToken,
+    "22": DesignToken,
     "24": DesignToken,
     "32": DesignToken,
-    "48": DesignToken,
-    "22-primary": DesignToken
+    "48": DesignToken
   },
   "line-height": {
     "standard": DesignToken

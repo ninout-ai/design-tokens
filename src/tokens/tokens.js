@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Dec 2022 01:34:47 GMT
+ * Generated on Wed, 15 Mar 2023 06:21:09 GMT
  */
 
 module.exports = {
@@ -171,9 +171,57 @@ module.exports = {
           "text",
           "disable"
         ]
+      },
+      "label-text": {
+        "primary": {
+          "value": "#4b4b4b",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#4B4B4B",
+            "type": "color"
+          },
+          "name": "ColorTextLabelTextPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "text",
+            "item": "label-text",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "text",
+            "label-text",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#333333",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#333333",
+            "type": "color"
+          },
+          "name": "ColorTextLabelTextSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "text",
+            "item": "label-text",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "text",
+            "label-text",
+            "secondary"
+          ]
+        }
       }
     },
-    "label": {
+    "label-folder": {
       "blue": {
         "value": "#73b1c0",
         "type": "color",
@@ -183,15 +231,15 @@ module.exports = {
           "value": "#73B1C0",
           "type": "color"
         },
-        "name": "ColorLabelBlue",
+        "name": "ColorLabelFolderBlue",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "blue"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "blue"
         ]
       },
@@ -204,15 +252,15 @@ module.exports = {
           "value": "#757EC0",
           "type": "color"
         },
-        "name": "ColorLabelPurple",
+        "name": "ColorLabelFolderPurple",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "purple"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "purple"
         ]
       },
@@ -225,15 +273,15 @@ module.exports = {
           "value": "#D24623",
           "type": "color"
         },
-        "name": "ColorLabelRed",
+        "name": "ColorLabelFolderRed",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "red"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "red"
         ]
       },
@@ -246,15 +294,15 @@ module.exports = {
           "value": "#7BA544",
           "type": "color"
         },
-        "name": "ColorLabelGreen",
+        "name": "ColorLabelFolderGreen",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "green"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "green"
         ]
       },
@@ -267,15 +315,15 @@ module.exports = {
           "value": "#DC7B9B",
           "type": "color"
         },
-        "name": "ColorLabelPink",
+        "name": "ColorLabelFolderPink",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "pink"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "pink"
         ]
       },
@@ -288,15 +336,15 @@ module.exports = {
           "value": "#E7B727",
           "type": "color"
         },
-        "name": "ColorLabelYellow",
+        "name": "ColorLabelFolderYellow",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "yellow"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "yellow"
         ]
       },
@@ -309,15 +357,15 @@ module.exports = {
           "value": "#EAA21A",
           "type": "color"
         },
-        "name": "ColorLabelOrange",
+        "name": "ColorLabelFolderOrange",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "orange"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "orange"
         ]
       },
@@ -330,15 +378,15 @@ module.exports = {
           "value": "#999999",
           "type": "color"
         },
-        "name": "ColorLabelGray",
+        "name": "ColorLabelFolderGray",
         "attributes": {
           "category": "color",
-          "type": "label",
+          "type": "label-folder",
           "item": "gray"
         },
         "path": [
           "color",
-          "label",
+          "label-folder",
           "gray"
         ]
       }
@@ -389,6 +437,29 @@ module.exports = {
             "button",
             "primary",
             "hover"
+          ]
+        },
+        "disable": {
+          "value": "#d4e7ed",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#D4E7ED",
+            "type": "color"
+          },
+          "name": "ColorButtonPrimaryDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "primary",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "primary",
+            "disable"
           ]
         },
         "outline-default": {
@@ -460,7 +531,7 @@ module.exports = {
             "hover-light"
           ]
         },
-        "disable": {
+        "outline-disable": {
           "value": "#d4e7ed",
           "type": "color",
           "filePath": "output.json",
@@ -469,18 +540,18 @@ module.exports = {
             "value": "#D4E7ED",
             "type": "color"
           },
-          "name": "ColorButtonPrimaryDisable",
+          "name": "ColorButtonPrimaryOutlineDisable",
           "attributes": {
             "category": "color",
             "type": "button",
             "item": "primary",
-            "subitem": "disable"
+            "subitem": "outline-disable"
           },
           "path": [
             "color",
             "button",
             "primary",
-            "disable"
+            "outline-disable"
           ]
         }
       },
@@ -529,6 +600,29 @@ module.exports = {
             "button",
             "neutral",
             "hover"
+          ]
+        },
+        "disable": {
+          "value": "#eaeaea",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAEAEA",
+            "type": "color"
+          },
+          "name": "ColorButtonNeutralDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "neutral",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "neutral",
+            "disable"
           ]
         },
         "outline-default": {
@@ -599,29 +693,6 @@ module.exports = {
             "neutral",
             "outline-disable"
           ]
-        },
-        "disable": {
-          "value": "#eaeaea",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#EAEAEA",
-            "type": "color"
-          },
-          "name": "ColorButtonNeutralDisable",
-          "attributes": {
-            "category": "color",
-            "type": "button",
-            "item": "neutral",
-            "subitem": "disable"
-          },
-          "path": [
-            "color",
-            "button",
-            "neutral",
-            "disable"
-          ]
         }
       },
       "danger": {
@@ -671,6 +742,29 @@ module.exports = {
             "hover"
           ]
         },
+        "disable": {
+          "value": "#f6e1e1",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F6E1E1",
+            "type": "color"
+          },
+          "name": "ColorButtonDangerDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "danger",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "danger",
+            "disable"
+          ]
+        },
         "outline-default": {
           "value": "#c74444",
           "type": "color",
@@ -717,7 +811,7 @@ module.exports = {
             "outline-hover"
           ]
         },
-        "disable": {
+        "outline-disable": {
           "value": "#f6e1e1",
           "type": "color",
           "filePath": "output.json",
@@ -726,18 +820,18 @@ module.exports = {
             "value": "#F6E1E1",
             "type": "color"
           },
-          "name": "ColorButtonDangerDisable",
+          "name": "ColorButtonDangerOutlineDisable",
           "attributes": {
             "category": "color",
             "type": "button",
             "item": "danger",
-            "subitem": "disable"
+            "subitem": "outline-disable"
           },
           "path": [
             "color",
             "button",
             "danger",
-            "disable"
+            "outline-disable"
           ]
         }
       },
@@ -786,6 +880,29 @@ module.exports = {
             "button",
             "secondary",
             "hover"
+          ]
+        },
+        "disable": {
+          "value": "#eaeaea",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAEAEA",
+            "type": "color"
+          },
+          "name": "ColorButtonSecondaryDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "disable"
           ]
         },
         "outline-default": {
@@ -856,29 +973,6 @@ module.exports = {
             "secondary",
             "outline-disable"
           ]
-        },
-        "disable": {
-          "value": "#eaeaea",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#EAEAEA",
-            "type": "color"
-          },
-          "name": "ColorButtonSecondaryDisable",
-          "attributes": {
-            "category": "color",
-            "type": "button",
-            "item": "secondary",
-            "subitem": "disable"
-          },
-          "path": [
-            "color",
-            "button",
-            "secondary",
-            "disable"
-          ]
         }
       },
       "accent": {
@@ -928,6 +1022,29 @@ module.exports = {
             "hover"
           ]
         },
+        "disable": {
+          "value": "#f8e1b6",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F8E1B6",
+            "type": "color"
+          },
+          "name": "ColorButtonAccentDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "accent",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "accent",
+            "disable"
+          ]
+        },
         "outline-default": {
           "value": "#eaa21a",
           "type": "color",
@@ -974,7 +1091,7 @@ module.exports = {
             "outline-hover"
           ]
         },
-        "disable": {
+        "outline-disable": {
           "value": "#f8e1b6",
           "type": "color",
           "filePath": "output.json",
@@ -983,18 +1100,18 @@ module.exports = {
             "value": "#F8E1B6",
             "type": "color"
           },
-          "name": "ColorButtonAccentDisable",
+          "name": "ColorButtonAccentOutlineDisable",
           "attributes": {
             "category": "color",
             "type": "button",
             "item": "accent",
-            "subitem": "disable"
+            "subitem": "outline-disable"
           },
           "path": [
             "color",
             "button",
             "accent",
-            "disable"
+            "outline-disable"
           ]
         }
       },
@@ -1043,6 +1160,29 @@ module.exports = {
             "button",
             "theme-primary",
             "hover"
+          ]
+        },
+        "disable": {
+          "value": "#d7eff4",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#D7EFF4",
+            "type": "color"
+          },
+          "name": "ColorButtonThemePrimaryDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "theme-primary",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "theme-primary",
+            "disable"
           ]
         },
         "outline-default": {
@@ -1113,29 +1253,6 @@ module.exports = {
             "theme-primary",
             "outline-disable"
           ]
-        },
-        "disable": {
-          "value": "#d7eff4",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#D7EFF4",
-            "type": "color"
-          },
-          "name": "ColorButtonThemePrimaryDisable",
-          "attributes": {
-            "category": "color",
-            "type": "button",
-            "item": "theme-primary",
-            "subitem": "disable"
-          },
-          "path": [
-            "color",
-            "button",
-            "theme-primary",
-            "disable"
-          ]
         }
       },
       "white": {
@@ -1158,6 +1275,146 @@ module.exports = {
           "button",
           "white"
         ]
+      },
+      "tertiary": {
+        "default": {
+          "value": "#6f6f6f",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#6F6F6F",
+            "type": "color"
+          },
+          "name": "ColorButtonTertiaryDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "tertiary",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "button",
+            "tertiary",
+            "default"
+          ]
+        },
+        "hover": {
+          "value": "#7c7c7c",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#7C7C7C",
+            "type": "color"
+          },
+          "name": "ColorButtonTertiaryHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "tertiary",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "button",
+            "tertiary",
+            "hover"
+          ]
+        },
+        "outline-default": {
+          "value": "#6f6f6f",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#6F6F6F",
+            "type": "color"
+          },
+          "name": "ColorButtonTertiaryOutlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "tertiary",
+            "subitem": "outline-default"
+          },
+          "path": [
+            "color",
+            "button",
+            "tertiary",
+            "outline-default"
+          ]
+        },
+        "outline-hover": {
+          "value": "#f6f6f6",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#F6F6F6",
+            "type": "color"
+          },
+          "name": "ColorButtonTertiaryOutlineHover",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "tertiary",
+            "subitem": "outline-hover"
+          },
+          "path": [
+            "color",
+            "button",
+            "tertiary",
+            "outline-hover"
+          ]
+        },
+        "outline-disable": {
+          "value": "#e0e0e0",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#E0E0E0",
+            "type": "color"
+          },
+          "name": "ColorButtonTertiaryOutlineDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "tertiary",
+            "subitem": "outline-disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "tertiary",
+            "outline-disable"
+          ]
+        },
+        "disable": {
+          "value": "#eaeaea",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAEAEA",
+            "type": "color"
+          },
+          "name": "ColorButtonTertiaryDisable",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "tertiary",
+            "subitem": "disable"
+          },
+          "path": [
+            "color",
+            "button",
+            "tertiary",
+            "disable"
+          ]
+        }
       }
     },
     "bland": {
@@ -1417,6 +1674,27 @@ module.exports = {
           "secondary"
         ]
       },
+      "accent": {
+        "value": "#eaa21a",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#EAA21A",
+          "type": "color"
+        },
+        "name": "ColorIconAccent",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "accent"
+        },
+        "path": [
+          "color",
+          "icon",
+          "accent"
+        ]
+      },
       "logic": {
         "value": "#e7b727",
         "type": "color",
@@ -1479,9 +1757,51 @@ module.exports = {
           "icon",
           "white"
         ]
+      },
+      "disable": {
+        "value": "#bababa",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#BABABA",
+          "type": "color"
+        },
+        "name": "ColorIconDisable",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "disable"
+        },
+        "path": [
+          "color",
+          "icon",
+          "disable"
+        ]
+      },
+      "balloon": {
+        "value": "#000000",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "name": "ColorIconBalloon",
+        "attributes": {
+          "category": "color",
+          "type": "icon",
+          "item": "balloon"
+        },
+        "path": [
+          "color",
+          "icon",
+          "balloon"
+        ]
       }
     },
-    "background": {
+    "surface": {
       "white": {
         "value": "#ffffff",
         "type": "color",
@@ -1491,15 +1811,15 @@ module.exports = {
           "value": "#FFFFFF",
           "type": "color"
         },
-        "name": "ColorBackgroundWhite",
+        "name": "ColorSurfaceWhite",
         "attributes": {
           "category": "color",
-          "type": "background",
+          "type": "surface",
           "item": "white"
         },
         "path": [
           "color",
-          "background",
+          "surface",
           "white"
         ]
       },
@@ -1513,16 +1833,16 @@ module.exports = {
             "value": "#F6F6F6",
             "type": "color"
           },
-          "name": "ColorBackgroundNeutralPrimary",
+          "name": "ColorSurfaceNeutralPrimary",
           "attributes": {
             "category": "color",
-            "type": "background",
+            "type": "surface",
             "item": "neutral",
             "subitem": "primary"
           },
           "path": [
             "color",
-            "background",
+            "surface",
             "neutral",
             "primary"
           ]
@@ -1536,16 +1856,16 @@ module.exports = {
             "value": "#E0E0E0",
             "type": "color"
           },
-          "name": "ColorBackgroundNeutralSecondary",
+          "name": "ColorSurfaceNeutralSecondary",
           "attributes": {
             "category": "color",
-            "type": "background",
+            "type": "surface",
             "item": "neutral",
             "subitem": "secondary"
           },
           "path": [
             "color",
-            "background",
+            "surface",
             "neutral",
             "secondary"
           ]
@@ -1559,22 +1879,45 @@ module.exports = {
             "value": "#999999",
             "type": "color"
           },
-          "name": "ColorBackgroundNeutralTertiary",
+          "name": "ColorSurfaceNeutralTertiary",
           "attributes": {
             "category": "color",
-            "type": "background",
+            "type": "surface",
             "item": "neutral",
             "subitem": "tertiary"
           },
           "path": [
             "color",
-            "background",
+            "surface",
             "neutral",
             "tertiary"
           ]
+        },
+        "quaternary": {
+          "value": "#494949",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#494949",
+            "type": "color"
+          },
+          "name": "ColorSurfaceNeutralQuaternary",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "neutral",
+            "subitem": "quaternary"
+          },
+          "path": [
+            "color",
+            "surface",
+            "neutral",
+            "quaternary"
+          ]
         }
       },
-      "default": {
+      "normal": {
         "primary": {
           "value": "#73b1c0",
           "type": "color",
@@ -1584,17 +1927,17 @@ module.exports = {
             "value": "#73B1C0",
             "type": "color"
           },
-          "name": "ColorBackgroundDefaultPrimary",
+          "name": "ColorSurfaceNormalPrimary",
           "attributes": {
             "category": "color",
-            "type": "background",
-            "item": "default",
+            "type": "surface",
+            "item": "normal",
             "subitem": "primary"
           },
           "path": [
             "color",
-            "background",
-            "default",
+            "surface",
+            "normal",
             "primary"
           ]
         },
@@ -1607,17 +1950,17 @@ module.exports = {
             "value": "#D4E7ED",
             "type": "color"
           },
-          "name": "ColorBackgroundDefaultSecondary",
+          "name": "ColorSurfaceNormalSecondary",
           "attributes": {
             "category": "color",
-            "type": "background",
-            "item": "default",
+            "type": "surface",
+            "item": "normal",
             "subitem": "secondary"
           },
           "path": [
             "color",
-            "background",
-            "default",
+            "surface",
+            "normal",
             "secondary"
           ]
         },
@@ -1630,18 +1973,91 @@ module.exports = {
             "value": "#F1FBFD",
             "type": "color"
           },
-          "name": "ColorBackgroundDefaultTertiary",
+          "name": "ColorSurfaceNormalTertiary",
           "attributes": {
             "category": "color",
-            "type": "background",
-            "item": "default",
+            "type": "surface",
+            "item": "normal",
             "subitem": "tertiary"
           },
           "path": [
             "color",
-            "background",
-            "default",
+            "surface",
+            "normal",
             "tertiary"
+          ]
+        }
+      },
+      "theme-primary": {
+        "primary": {
+          "value": "#38aec9",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#38AEC9",
+            "type": "color"
+          },
+          "name": "ColorSurfaceThemePrimaryPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "theme-primary",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "surface",
+            "theme-primary",
+            "primary"
+          ]
+        }
+      },
+      "accent": {
+        "primary": {
+          "value": "#eaa21a",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAA21A",
+            "type": "color"
+          },
+          "name": "ColorSurfaceAccentPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "accent",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "surface",
+            "accent",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#5c747f",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#5C747F",
+            "type": "color"
+          },
+          "name": "ColorSurfaceAccentSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "accent",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "surface",
+            "accent",
+            "secondary"
           ]
         }
       }
@@ -1743,6 +2159,54 @@ module.exports = {
           ]
         }
       },
+      "normal": {
+        "primary": {
+          "value": "#73b1c0",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#73B1C0",
+            "type": "color"
+          },
+          "name": "ColorBorderNormalPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "normal",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "border",
+            "normal",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#d4e7ed",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#D4E7ED",
+            "type": "color"
+          },
+          "name": "ColorBorderNormalSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "normal",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "border",
+            "normal",
+            "secondary"
+          ]
+        }
+      },
       "focus": {
         "value": "#0054c5",
         "type": "color",
@@ -1764,53 +2228,26 @@ module.exports = {
           "focus"
         ]
       },
-      "default": {
-        "primary": {
-          "value": "#73b1c0",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#73B1C0",
-            "type": "color"
-          },
-          "name": "ColorBorderDefaultPrimary",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "default",
-            "subitem": "primary"
-          },
-          "path": [
-            "color",
-            "border",
-            "default",
-            "primary"
-          ]
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFFFFF",
+          "type": "color"
         },
-        "secondary": {
-          "value": "#d4e7ed",
-          "type": "color",
-          "filePath": "output.json",
-          "isSource": true,
-          "original": {
-            "value": "#D4E7ED",
-            "type": "color"
-          },
-          "name": "ColorBorderDefaultSecondary",
-          "attributes": {
-            "category": "color",
-            "type": "border",
-            "item": "default",
-            "subitem": "secondary"
-          },
-          "path": [
-            "color",
-            "border",
-            "default",
-            "secondary"
-          ]
-        }
+        "name": "ColorBorderWhite",
+        "attributes": {
+          "category": "color",
+          "type": "border",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "border",
+          "white"
+        ]
       }
     },
     "status": {
@@ -3033,16 +3470,35 @@ module.exports = {
         "spacing",
         "standard"
       ]
+    },
+    "legacy-standard": {
+      "value": "5px",
+      "type": "spacing",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "5px",
+        "type": "spacing"
+      },
+      "name": "SpacingLegacyStandard",
+      "attributes": {
+        "category": "spacing",
+        "type": "legacy-standard"
+      },
+      "path": [
+        "spacing",
+        "legacy-standard"
+      ]
     }
   },
   "border-width": {
     "1": {
-      "value": 1,
+      "value": "1px",
       "type": "borderWidth",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 1,
+        "value": "1px",
         "type": "borderWidth"
       },
       "name": "BorderWidth1",
@@ -3056,12 +3512,12 @@ module.exports = {
       ]
     },
     "2": {
-      "value": 2,
+      "value": "2px",
       "type": "borderWidth",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 2,
+        "value": "2px",
         "type": "borderWidth"
       },
       "name": "BorderWidth2",
@@ -3075,12 +3531,12 @@ module.exports = {
       ]
     },
     "s": {
-      "value": 1,
+      "value": "1px",
       "type": "borderWidth",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 1,
+        "value": "1px",
         "type": "borderWidth"
       },
       "name": "BorderWidthS",
@@ -3094,12 +3550,12 @@ module.exports = {
       ]
     },
     "m": {
-      "value": 2,
+      "value": "2px",
       "type": "borderWidth",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 2,
+        "value": "2px",
         "type": "borderWidth"
       },
       "name": "BorderWidthM",
@@ -3114,241 +3570,888 @@ module.exports = {
     }
   },
   "typography": {
-    "default": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 22,
-        "lineHeight": "1.5rem"
+    "question": {
+      "default": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "22px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "22px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionDefault",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "default"
+        },
+        "path": [
+          "typography",
+          "question",
+          "default"
+        ]
       },
-      "type": "typography",
+      "size1": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "10px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "10px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionSize1",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "size1"
+        },
+        "path": [
+          "typography",
+          "question",
+          "size1"
+        ]
+      },
+      "size2": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "13px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "13px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionSize2",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "size2"
+        },
+        "path": [
+          "typography",
+          "question",
+          "size2"
+        ]
+      },
+      "size3": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "16px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "16px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionSize3",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "size3"
+        },
+        "path": [
+          "typography",
+          "question",
+          "size3"
+        ]
+      },
+      "size4": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "18px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "18px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionSize4",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "size4"
+        },
+        "path": [
+          "typography",
+          "question",
+          "size4"
+        ]
+      },
+      "size5": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "24px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "24px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionSize5",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "size5"
+        },
+        "path": [
+          "typography",
+          "question",
+          "size5"
+        ]
+      },
+      "size6": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "32px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "32px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionSize6",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "size6"
+        },
+        "path": [
+          "typography",
+          "question",
+          "size6"
+        ]
+      },
+      "size7": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "fontSize": "48px",
+          "lineHeight": "1.5rem"
+        },
+        "type": "typography",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "'Hiragino Sans'",
+            "fontWeight": 300,
+            "fontSize": "48px",
+            "lineHeight": "1.5rem"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyQuestionSize7",
+        "attributes": {
+          "category": "typography",
+          "type": "question",
+          "item": "size7"
+        },
+        "path": [
+          "typography",
+          "question",
+          "size7"
+        ]
+      }
+    }
+  },
+  "z-index": {
+    "0": {
+      "value": 0,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 22,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": 0,
+        "type": "other"
       },
-      "name": "TypographyDefault",
+      "name": "ZIndex0",
       "attributes": {
-        "category": "typography",
+        "category": "z-index",
+        "type": "0"
+      },
+      "path": [
+        "z-index",
+        "0"
+      ]
+    },
+    "1": {
+      "value": 1,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 1,
+        "type": "other"
+      },
+      "name": "ZIndex1",
+      "attributes": {
+        "category": "z-index",
+        "type": "1"
+      },
+      "path": [
+        "z-index",
+        "1"
+      ]
+    },
+    "3": {
+      "value": 3,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 3,
+        "type": "other"
+      },
+      "name": "ZIndex3",
+      "attributes": {
+        "category": "z-index",
+        "type": "3"
+      },
+      "path": [
+        "z-index",
+        "3"
+      ]
+    },
+    "5": {
+      "value": 5,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 5,
+        "type": "other"
+      },
+      "name": "ZIndex5",
+      "attributes": {
+        "category": "z-index",
+        "type": "5"
+      },
+      "path": [
+        "z-index",
+        "5"
+      ]
+    },
+    "10": {
+      "value": 10,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 10,
+        "type": "other"
+      },
+      "name": "ZIndex10",
+      "attributes": {
+        "category": "z-index",
+        "type": "10"
+      },
+      "path": [
+        "z-index",
+        "10"
+      ]
+    },
+    "11": {
+      "value": 11,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 11,
+        "type": "other"
+      },
+      "name": "ZIndex11",
+      "attributes": {
+        "category": "z-index",
+        "type": "11"
+      },
+      "path": [
+        "z-index",
+        "11"
+      ]
+    },
+    "12": {
+      "value": 12,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 12,
+        "type": "other"
+      },
+      "name": "ZIndex12",
+      "attributes": {
+        "category": "z-index",
+        "type": "12"
+      },
+      "path": [
+        "z-index",
+        "12"
+      ]
+    },
+    "100": {
+      "value": 100,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 100,
+        "type": "other"
+      },
+      "name": "ZIndex100",
+      "attributes": {
+        "category": "z-index",
+        "type": "100"
+      },
+      "path": [
+        "z-index",
+        "100"
+      ]
+    },
+    "800": {
+      "value": 800,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 800,
+        "type": "other"
+      },
+      "name": "ZIndex800",
+      "attributes": {
+        "category": "z-index",
+        "type": "800"
+      },
+      "path": [
+        "z-index",
+        "800"
+      ]
+    },
+    "805": {
+      "value": 805,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 805,
+        "type": "other"
+      },
+      "name": "ZIndex805",
+      "attributes": {
+        "category": "z-index",
+        "type": "805"
+      },
+      "path": [
+        "z-index",
+        "805"
+      ]
+    },
+    "810": {
+      "value": 810,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 810,
+        "type": "other"
+      },
+      "name": "ZIndex810",
+      "attributes": {
+        "category": "z-index",
+        "type": "810"
+      },
+      "path": [
+        "z-index",
+        "810"
+      ]
+    },
+    "815": {
+      "value": 815,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 815,
+        "type": "other"
+      },
+      "name": "ZIndex815",
+      "attributes": {
+        "category": "z-index",
+        "type": "815"
+      },
+      "path": [
+        "z-index",
+        "815"
+      ]
+    },
+    "900": {
+      "value": 900,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 900,
+        "type": "other"
+      },
+      "name": "ZIndex900",
+      "attributes": {
+        "category": "z-index",
+        "type": "900"
+      },
+      "path": [
+        "z-index",
+        "900"
+      ]
+    },
+    "1000": {
+      "value": 1000,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 1000,
+        "type": "other"
+      },
+      "name": "ZIndex1000",
+      "attributes": {
+        "category": "z-index",
+        "type": "1000"
+      },
+      "path": [
+        "z-index",
+        "1000"
+      ]
+    },
+    "9999": {
+      "value": 9999,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 9999,
+        "type": "other"
+      },
+      "name": "ZIndex9999",
+      "attributes": {
+        "category": "z-index",
+        "type": "9999"
+      },
+      "path": [
+        "z-index",
+        "9999"
+      ]
+    },
+    "top": {
+      "value": 9999,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 9999,
+        "type": "other"
+      },
+      "name": "ZIndexTop",
+      "attributes": {
+        "category": "z-index",
+        "type": "top"
+      },
+      "path": [
+        "z-index",
+        "top"
+      ]
+    },
+    "overlap": {
+      "value": 1000,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 1000,
+        "type": "other"
+      },
+      "name": "ZIndexOverlap",
+      "attributes": {
+        "category": "z-index",
+        "type": "overlap"
+      },
+      "path": [
+        "z-index",
+        "overlap"
+      ]
+    },
+    "notification": {
+      "value": 900,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 900,
+        "type": "other"
+      },
+      "name": "ZIndexNotification",
+      "attributes": {
+        "category": "z-index",
+        "type": "notification"
+      },
+      "path": [
+        "z-index",
+        "notification"
+      ]
+    },
+    "modal-secondary-contents": {
+      "value": 815,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 815,
+        "type": "other"
+      },
+      "name": "ZIndexModalSecondaryContents",
+      "attributes": {
+        "category": "z-index",
+        "type": "modal-secondary-contents"
+      },
+      "path": [
+        "z-index",
+        "modal-secondary-contents"
+      ]
+    },
+    "modal-secondary": {
+      "value": 810,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 810,
+        "type": "other"
+      },
+      "name": "ZIndexModalSecondary",
+      "attributes": {
+        "category": "z-index",
+        "type": "modal-secondary"
+      },
+      "path": [
+        "z-index",
+        "modal-secondary"
+      ]
+    },
+    "modal-primary-contents": {
+      "value": 805,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 805,
+        "type": "other"
+      },
+      "name": "ZIndexModalPrimaryContents",
+      "attributes": {
+        "category": "z-index",
+        "type": "modal-primary-contents"
+      },
+      "path": [
+        "z-index",
+        "modal-primary-contents"
+      ]
+    },
+    "modal-primary": {
+      "value": 800,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 800,
+        "type": "other"
+      },
+      "name": "ZIndexModalPrimary",
+      "attributes": {
+        "category": "z-index",
+        "type": "modal-primary"
+      },
+      "path": [
+        "z-index",
+        "modal-primary"
+      ]
+    },
+    "header": {
+      "value": 100,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 100,
+        "type": "other"
+      },
+      "name": "ZIndexHeader",
+      "attributes": {
+        "category": "z-index",
+        "type": "header"
+      },
+      "path": [
+        "z-index",
+        "header"
+      ]
+    },
+    "default": {
+      "value": 0,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 0,
+        "type": "other"
+      },
+      "name": "ZIndexDefault",
+      "attributes": {
+        "category": "z-index",
         "type": "default"
       },
       "path": [
-        "typography",
+        "z-index",
         "default"
       ]
     },
-    "size1": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 10,
-        "lineHeight": "1.5rem"
-      },
-      "type": "typography",
+    "bottom": {
+      "value": -100,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 10,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": -100,
+        "type": "other"
       },
-      "name": "TypographySize1",
+      "name": "ZIndexBottom",
       "attributes": {
-        "category": "typography",
-        "type": "size1"
+        "category": "z-index",
+        "type": "bottom"
       },
       "path": [
-        "typography",
-        "size1"
+        "z-index",
+        "bottom"
       ]
     },
-    "size2": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 13,
-        "lineHeight": "1.5rem"
-      },
-      "type": "typography",
+    "legacy_modal-tertiary": {
+      "value": 12,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 13,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": 12,
+        "type": "other"
       },
-      "name": "TypographySize2",
+      "name": "ZIndexLegacyModalTertiary",
       "attributes": {
-        "category": "typography",
-        "type": "size2"
+        "category": "z-index",
+        "type": "legacy_modal-tertiary"
       },
       "path": [
-        "typography",
-        "size2"
+        "z-index",
+        "legacy_modal-tertiary"
       ]
     },
-    "size3": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 16,
-        "lineHeight": "1.5rem"
-      },
-      "type": "typography",
+    "legacy_modal-secondary": {
+      "value": 11,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 16,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": 11,
+        "type": "other"
       },
-      "name": "TypographySize3",
+      "name": "ZIndexLegacyModalSecondary",
       "attributes": {
-        "category": "typography",
-        "type": "size3"
+        "category": "z-index",
+        "type": "legacy_modal-secondary"
       },
       "path": [
-        "typography",
-        "size3"
+        "z-index",
+        "legacy_modal-secondary"
       ]
     },
-    "size4": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 18,
-        "lineHeight": "1.5rem"
-      },
-      "type": "typography",
+    "legacy_modal-primary": {
+      "value": 10,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 18,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": 10,
+        "type": "other"
       },
-      "name": "TypographySize4",
+      "name": "ZIndexLegacyModalPrimary",
       "attributes": {
-        "category": "typography",
-        "type": "size4"
+        "category": "z-index",
+        "type": "legacy_modal-primary"
       },
       "path": [
-        "typography",
-        "size4"
+        "z-index",
+        "legacy_modal-primary"
       ]
     },
-    "size5": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 24,
-        "lineHeight": "1.5rem"
-      },
-      "type": "typography",
+    "legacy_notification": {
+      "value": 5,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 24,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": 5,
+        "type": "other"
       },
-      "name": "TypographySize5",
+      "name": "ZIndexLegacyNotification",
       "attributes": {
-        "category": "typography",
-        "type": "size5"
+        "category": "z-index",
+        "type": "legacy_notification"
       },
       "path": [
-        "typography",
-        "size5"
+        "z-index",
+        "legacy_notification"
       ]
     },
-    "size6": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 32,
-        "lineHeight": "1.5rem"
-      },
-      "type": "typography",
+    "legacy_header": {
+      "value": 3,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 32,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": 3,
+        "type": "other"
       },
-      "name": "TypographySize6",
+      "name": "ZIndexLegacyHeader",
       "attributes": {
-        "category": "typography",
-        "type": "size6"
+        "category": "z-index",
+        "type": "legacy_header"
       },
       "path": [
-        "typography",
-        "size6"
+        "z-index",
+        "legacy_header"
       ]
     },
-    "size7": {
-      "value": {
-        "fontFamily": "'Hiragino Kaku Gothic ProN'",
-        "fontWeight": 300,
-        "fontSize": 48,
-        "lineHeight": "1.5rem"
-      },
-      "type": "typography",
+    "legacy_alert": {
+      "value": 1,
+      "type": "other",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "'Hiragino Kaku Gothic ProN'",
-          "fontWeight": 300,
-          "fontSize": 48,
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography"
+        "value": 1,
+        "type": "other"
       },
-      "name": "TypographySize7",
+      "name": "ZIndexLegacyAlert",
       "attributes": {
-        "category": "typography",
-        "type": "size7"
+        "category": "z-index",
+        "type": "legacy_alert"
       },
       "path": [
-        "typography",
-        "size7"
+        "z-index",
+        "legacy_alert"
+      ]
+    },
+    "auto": {
+      "value": "auto",
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "auto",
+        "type": "other"
+      },
+      "name": "ZIndexAuto",
+      "attributes": {
+        "category": "z-index",
+        "type": "auto"
+      },
+      "path": [
+        "z-index",
+        "auto"
+      ]
+    },
+    "minus100": {
+      "value": -100,
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": -100,
+        "type": "other"
+      },
+      "name": "ZIndexMinus100",
+      "attributes": {
+        "category": "z-index",
+        "type": "minus100"
+      },
+      "path": [
+        "z-index",
+        "minus100"
       ]
     }
   },
   "font-weight": {
-    "300": {
+    "W3": {
       "value": 300,
       "type": "fontWeights",
       "filePath": "output.json",
@@ -3357,17 +4460,17 @@ module.exports = {
         "value": 300,
         "type": "fontWeights"
       },
-      "name": "FontWeight300",
+      "name": "FontWeightW3",
       "attributes": {
         "category": "font-weight",
-        "type": "300"
+        "type": "W3"
       },
       "path": [
         "font-weight",
-        "300"
+        "W3"
       ]
     },
-    "600": {
+    "W6": {
       "value": 600,
       "type": "fontWeights",
       "filePath": "output.json",
@@ -3376,46 +4479,46 @@ module.exports = {
         "value": 600,
         "type": "fontWeights"
       },
-      "name": "FontWeight600",
+      "name": "FontWeightW6",
       "attributes": {
         "category": "font-weight",
-        "type": "600"
+        "type": "W6"
       },
       "path": [
         "font-weight",
-        "600"
+        "W6"
       ]
     }
   },
   "font-family": {
-    "hiragino-kaku-gothic-pron": {
-      "value": "'Hiragino Kaku Gothic ProN'",
+    "hiragino-sans": {
+      "value": "'Hiragino Sans'",
       "type": "fontFamilies",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": "'Hiragino Kaku Gothic ProN'",
+        "value": "'Hiragino Sans'",
         "type": "fontFamilies"
       },
-      "name": "FontFamilyHiraginoKakuGothicPron",
+      "name": "FontFamilyHiraginoSans",
       "attributes": {
         "category": "font-family",
-        "type": "hiragino-kaku-gothic-pron"
+        "type": "hiragino-sans"
       },
       "path": [
         "font-family",
-        "hiragino-kaku-gothic-pron"
+        "hiragino-sans"
       ]
     }
   },
   "font-size": {
     "10": {
-      "value": 10,
+      "value": "10px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 10,
+        "value": "10px",
         "type": "fontSizes"
       },
       "name": "FontSize10",
@@ -3429,12 +4532,12 @@ module.exports = {
       ]
     },
     "11": {
-      "value": 11,
+      "value": "11px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 11,
+        "value": "11px",
         "type": "fontSizes"
       },
       "name": "FontSize11",
@@ -3448,12 +4551,12 @@ module.exports = {
       ]
     },
     "13": {
-      "value": 13,
+      "value": "13px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 13,
+        "value": "13px",
         "type": "fontSizes"
       },
       "name": "FontSize13",
@@ -3467,12 +4570,12 @@ module.exports = {
       ]
     },
     "14": {
-      "value": 14,
+      "value": "14px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 14,
+        "value": "14px",
         "type": "fontSizes"
       },
       "name": "FontSize14",
@@ -3486,12 +4589,12 @@ module.exports = {
       ]
     },
     "15": {
-      "value": 15,
+      "value": "15px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 15,
+        "value": "15px",
         "type": "fontSizes"
       },
       "name": "FontSize15",
@@ -3505,12 +4608,12 @@ module.exports = {
       ]
     },
     "16": {
-      "value": 16,
+      "value": "16px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 16,
+        "value": "16px",
         "type": "fontSizes"
       },
       "name": "FontSize16",
@@ -3524,12 +4627,12 @@ module.exports = {
       ]
     },
     "18": {
-      "value": 18,
+      "value": "18px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 18,
+        "value": "18px",
         "type": "fontSizes"
       },
       "name": "FontSize18",
@@ -3542,13 +4645,32 @@ module.exports = {
         "18"
       ]
     },
-    "24": {
-      "value": 24,
+    "22": {
+      "value": "22px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 24,
+        "value": "22px",
+        "type": "fontSizes"
+      },
+      "name": "FontSize22",
+      "attributes": {
+        "category": "font-size",
+        "type": "22"
+      },
+      "path": [
+        "font-size",
+        "22"
+      ]
+    },
+    "24": {
+      "value": "24px",
+      "type": "fontSizes",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "24px",
         "type": "fontSizes"
       },
       "name": "FontSize24",
@@ -3562,12 +4684,12 @@ module.exports = {
       ]
     },
     "32": {
-      "value": 32,
+      "value": "32px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 32,
+        "value": "32px",
         "type": "fontSizes"
       },
       "name": "FontSize32",
@@ -3581,12 +4703,12 @@ module.exports = {
       ]
     },
     "48": {
-      "value": 48,
+      "value": "48px",
       "type": "fontSizes",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 48,
+        "value": "48px",
         "type": "fontSizes"
       },
       "name": "FontSize48",
@@ -3597,25 +4719,6 @@ module.exports = {
       "path": [
         "font-size",
         "48"
-      ]
-    },
-    "22-primary": {
-      "value": 22,
-      "type": "fontSizes",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": 22,
-        "type": "fontSizes"
-      },
-      "name": "FontSize22Primary",
-      "attributes": {
-        "category": "font-size",
-        "type": "22-primary"
-      },
-      "path": [
-        "font-size",
-        "22-primary"
       ]
     }
   },

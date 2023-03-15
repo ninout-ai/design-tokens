@@ -1,9 +1,10 @@
 name: build design tokens
 
 on:
-  push:
+  pull_request:
     paths:
       - "tokens.json"
+      - ".github/workflows/build.yml"
 
 jobs:
   build:
@@ -20,3 +21,9 @@ jobs:
 
       - name: build tokens
         run: yarn token
+
+      - name: commit built tokens
+        id: "auto-commit-action"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update design tokens
