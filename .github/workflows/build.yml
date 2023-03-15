@@ -22,8 +22,12 @@ jobs:
       - name: build tokens
         run: yarn token
 
+      - name: get pull request number
+        run: echo ${{ env.GITHUB_REF }} | awk -F'/' '{print $3}'
+        id: pr_number
+
       - name: commit built tokens
         id: "auto-commit-action"
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update design tokens
+          commit_message: "Update design tokens (#${{ steps.pr_number.outputs.pr_number }})"
