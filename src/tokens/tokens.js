@@ -1,9 +1,43 @@
 /**
  * Do not edit directly
- * Generated on Wed, 15 Mar 2023 07:13:50 GMT
+ * Generated on Thu, 16 Mar 2023 10:04:43 GMT
  */
 
 module.exports = {
+  "50": {
+    "value": 0.5,
+    "type": "opacity",
+    "filePath": "output.json",
+    "isSource": true,
+    "original": {
+      "value": 0.5,
+      "type": "opacity"
+    },
+    "name": "50",
+    "attributes": {
+      "category": "50"
+    },
+    "path": [
+      "50"
+    ]
+  },
+  "70": {
+    "value": 0.7,
+    "type": "opacity",
+    "filePath": "output.json",
+    "isSource": true,
+    "original": {
+      "value": 0.7,
+      "type": "opacity"
+    },
+    "name": "70",
+    "attributes": {
+      "category": "70"
+    },
+    "path": [
+      "70"
+    ]
+  },
   "tokenSetOrder": {
     "0": {
       "value": "primitive",
