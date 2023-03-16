@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Mar 2023 10:04:43 GMT
+ * Generated on Thu, 16 Mar 2023 10:13:24 GMT
  */
 
 export default tokens;
@@ -312,6 +312,8 @@ declare const tokens: {
     "auto": DesignToken,
     "minus100": DesignToken
   },
+  "modal": DesignToken,
+  "footer-progressbar": DesignToken,
   "font-weight": {
     "W3": DesignToken,
     "W6": DesignToken
