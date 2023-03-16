@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Mar 2023 10:04:43 GMT
+ * Generated on Thu, 16 Mar 2023 10:13:24 GMT
  */
 
 module.exports = {
@@ -4483,6 +4483,40 @@ module.exports = {
         "minus100"
       ]
     }
+  },
+  "modal": {
+    "value": 0.5,
+    "type": "opacity",
+    "filePath": "output.json",
+    "isSource": true,
+    "original": {
+      "value": 0.5,
+      "type": "opacity"
+    },
+    "name": "Modal",
+    "attributes": {
+      "category": "modal"
+    },
+    "path": [
+      "modal"
+    ]
+  },
+  "footer-progressbar": {
+    "value": 0.7,
+    "type": "opacity",
+    "filePath": "output.json",
+    "isSource": true,
+    "original": {
+      "value": 0.7,
+      "type": "opacity"
+    },
+    "name": "FooterProgressbar",
+    "attributes": {
+      "category": "footer-progressbar"
+    },
+    "path": [
+      "footer-progressbar"
+    ]
   },
   "font-weight": {
     "W3": {

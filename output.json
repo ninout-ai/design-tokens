@@ -949,6 +949,14 @@
       "type": "other"
     }
   },
+  "modal": {
+    "value": 0.5,
+    "type": "opacity"
+  },
+  "footer-progressbar": {
+    "value": 0.7,
+    "type": "opacity"
+  },
   "font-weight": {
     "W3": {
       "value": 300,
