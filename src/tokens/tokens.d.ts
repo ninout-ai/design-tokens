@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 15 Mar 2023 07:13:50 GMT
+ * Generated on Thu, 16 Mar 2023 10:04:43 GMT
  */
 
 export default tokens;
@@ -22,6 +22,8 @@ declare interface DesignToken {
 }
 
 declare const tokens: {
+  "50": DesignToken,
+  "70": DesignToken,
   "tokenSetOrder": {
     "0": DesignToken,
     "1": DesignToken

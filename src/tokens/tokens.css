@@ -1,9 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Wed, 15 Mar 2023 07:13:50 GMT
+ * Generated on Thu, 16 Mar 2023 10:04:42 GMT
  */
 
 :root {
+  --50: 0.5;
+  --70: 0.7;
   --token-set-order-0: primitive;
   --token-set-order-1: semantic;
   --color-text-body: #333333;
