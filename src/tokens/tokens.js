@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Mar 2023 10:13:24 GMT
+ * Generated on Tue, 28 Mar 2023 08:30:14 GMT
  */
 
 module.exports = {
@@ -4518,6 +4518,391 @@ module.exports = {
       "footer-progressbar"
     ]
   },
+  "shadow": {
+    "edit-questionnaire-item": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowEditQuestionnaireItem",
+      "attributes": {
+        "category": "shadow",
+        "type": "edit-questionnaire-item"
+      },
+      "path": [
+        "shadow",
+        "edit-questionnaire-item"
+      ]
+    },
+    "main-content-questionnaire-background": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowMainContentQuestionnaireBackground",
+      "attributes": {
+        "category": "shadow",
+        "type": "main-content-questionnaire-background"
+      },
+      "path": [
+        "shadow",
+        "main-content-questionnaire-background"
+      ]
+    },
+    "question-base": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowQuestionBase",
+      "attributes": {
+        "category": "shadow",
+        "type": "question-base"
+      },
+      "path": [
+        "shadow",
+        "question-base"
+      ]
+    },
+    "panel-base": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowPanelBase",
+      "attributes": {
+        "category": "shadow",
+        "type": "panel-base"
+      },
+      "path": [
+        "shadow",
+        "panel-base"
+      ]
+    },
+    "environment-completed": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowEnvironmentCompleted",
+      "attributes": {
+        "category": "shadow",
+        "type": "environment-completed"
+      },
+      "path": [
+        "shadow",
+        "environment-completed"
+      ]
+    },
+    "edit-step-list-item": {
+      "value": {
+        "x": 0,
+        "y": 3,
+        "blur": 2,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 3,
+          "blur": 2,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowEditStepListItem",
+      "attributes": {
+        "category": "shadow",
+        "type": "edit-step-list-item"
+      },
+      "path": [
+        "shadow",
+        "edit-step-list-item"
+      ]
+    },
+    "header": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowHeader",
+      "attributes": {
+        "category": "shadow",
+        "type": "header"
+      },
+      "path": [
+        "shadow",
+        "header"
+      ]
+    },
+    "completed-base": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 3,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowCompletedBase",
+      "attributes": {
+        "category": "shadow",
+        "type": "completed-base"
+      },
+      "path": [
+        "shadow",
+        "completed-base"
+      ]
+    },
+    "edit-complete-action-modal-header": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 1,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "ShadowEditCompleteActionModalHeader",
+      "attributes": {
+        "category": "shadow",
+        "type": "edit-complete-action-modal-header"
+      },
+      "path": [
+        "shadow",
+        "edit-complete-action-modal-header"
+      ]
+    }
+  },
+  "line-hight": {
+    "nomal": {
+      "value": "1.5rem",
+      "type": "lineHeights",
+      "description": "基本の行送り",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "1.5rem",
+        "type": "lineHeights",
+        "description": "基本の行送り"
+      },
+      "name": "LineHightNomal",
+      "attributes": {
+        "category": "line-hight",
+        "type": "nomal"
+      },
+      "path": [
+        "line-hight",
+        "nomal"
+      ]
+    },
+    "none": {
+      "value": 1,
+      "type": "lineHeights",
+      "description": "行送りナシ。ボタンなど改行の必要ないラベルに使用を想定\n",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 1,
+        "type": "lineHeights",
+        "description": "行送りナシ。ボタンなど改行の必要ないラベルに使用を想定\n"
+      },
+      "name": "LineHightNone",
+      "attributes": {
+        "category": "line-hight",
+        "type": "none"
+      },
+      "path": [
+        "line-hight",
+        "none"
+      ]
+    },
+    "tight": {
+      "value": "1.25rem",
+      "type": "lineHeights",
+      "description": "キツめの行送り。本文より狭い行間をつかう見出しなどでの使用を想定",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "1.25rem",
+        "type": "lineHeights",
+        "description": "キツめの行送り。本文より狭い行間をつかう見出しなどでの使用を想定"
+      },
+      "name": "LineHightTight",
+      "attributes": {
+        "category": "line-hight",
+        "type": "tight"
+      },
+      "path": [
+        "line-hight",
+        "tight"
+      ]
+    },
+    "relaxed": {
+      "value": "1.75rem",
+      "type": "lineHeights",
+      "description": "ゆったりめの行送り。規約など長い本文などでの使用を想定",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "1.75rem",
+        "type": "lineHeights",
+        "description": "ゆったりめの行送り。規約など長い本文などでの使用を想定"
+      },
+      "name": "LineHightRelaxed",
+      "attributes": {
+        "category": "line-hight",
+        "type": "relaxed"
+      },
+      "path": [
+        "line-hight",
+        "relaxed"
+      ]
+    }
+  },
   "font-weight": {
     "W3": {
       "value": 300,
@@ -4790,24 +5175,203 @@ module.exports = {
       ]
     }
   },
-  "line-height": {
-    "standard": {
-      "value": "1.5rem",
-      "type": "lineHeights",
+  "box-shadow": {
+    "legacy-1": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": "1.5rem",
-        "type": "lineHeights"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
       },
-      "name": "LineHeightStandard",
+      "name": "BoxShadowLegacy1",
       "attributes": {
-        "category": "line-height",
-        "type": "standard"
+        "category": "box-shadow",
+        "type": "legacy-1"
       },
       "path": [
-        "line-height",
-        "standard"
+        "box-shadow",
+        "legacy-1"
+      ]
+    },
+    "legacy-2": {
+      "value": {
+        "x": 0,
+        "y": 3,
+        "blur": 2,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 3,
+          "blur": 2,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "BoxShadowLegacy2",
+      "attributes": {
+        "category": "box-shadow",
+        "type": "legacy-2"
+      },
+      "path": [
+        "box-shadow",
+        "legacy-2"
+      ]
+    },
+    "legacy-3": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "BoxShadowLegacy3",
+      "attributes": {
+        "category": "box-shadow",
+        "type": "legacy-3"
+      },
+      "path": [
+        "box-shadow",
+        "legacy-3"
+      ]
+    },
+    "legacy-4": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 3,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "BoxShadowLegacy4",
+      "attributes": {
+        "category": "box-shadow",
+        "type": "legacy-4"
+      },
+      "path": [
+        "box-shadow",
+        "legacy-4"
+      ]
+    },
+    "legacy-6": {
+      "value": {
+        "x": 0,
+        "y": 3,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000029",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 3,
+          "blur": 3,
+          "spread": 0,
+          "color": "#00000029",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "BoxShadowLegacy6",
+      "attributes": {
+        "category": "box-shadow",
+        "type": "legacy-6"
+      },
+      "path": [
+        "box-shadow",
+        "legacy-6"
+      ]
+    },
+    "legacy-5": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 1,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000066",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "BoxShadowLegacy5",
+      "attributes": {
+        "category": "box-shadow",
+        "type": "legacy-5"
+      },
+      "path": [
+        "box-shadow",
+        "legacy-5"
       ]
     }
   }

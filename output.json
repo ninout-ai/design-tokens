@@ -957,6 +957,129 @@
     "value": 0.7,
     "type": "opacity"
   },
+  "shadow": {
+    "edit-questionnaire-item": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "main-content-questionnaire-background": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "question-base": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "panel-base": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "environment-completed": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "edit-step-list-item": {
+      "value": {
+        "x": 0,
+        "y": 3,
+        "blur": 2,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "header": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "completed-base": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "edit-complete-action-modal-header": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "line-hight": {
+    "nomal": {
+      "value": "1.5rem",
+      "type": "lineHeights",
+      "description": "基本の行送り"
+    },
+    "none": {
+      "value": 1,
+      "type": "lineHeights",
+      "description": "行送りナシ。ボタンなど改行の必要ないラベルに使用を想定\n"
+    },
+    "tight": {
+      "value": "1.25rem",
+      "type": "lineHeights",
+      "description": "キツめの行送り。本文より狭い行間をつかう見出しなどでの使用を想定"
+    },
+    "relaxed": {
+      "value": "1.75rem",
+      "type": "lineHeights",
+      "description": "ゆったりめの行送り。規約など長い本文などでの使用を想定"
+    }
+  },
   "font-weight": {
     "W3": {
       "value": 300,
@@ -1019,10 +1142,72 @@
       "type": "fontSizes"
     }
   },
-  "line-height": {
-    "standard": {
-      "value": "1.5rem",
-      "type": "lineHeights"
+  "box-shadow": {
+    "legacy-1": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "legacy-2": {
+      "value": {
+        "x": 0,
+        "y": 3,
+        "blur": 2,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "legacy-3": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "legacy-4": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "legacy-6": {
+      "value": {
+        "x": 0,
+        "y": 3,
+        "blur": 3,
+        "spread": 0,
+        "color": "#00000029",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "legacy-5": {
+      "value": {
+        "x": 0,
+        "y": 1,
+        "blur": 4,
+        "spread": 0,
+        "color": "#00000066",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
     }
   }
 }
