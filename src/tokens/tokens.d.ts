@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Mar 2023 10:13:24 GMT
+ * Generated on Tue, 28 Mar 2023 08:30:14 GMT
  */
 
 export default tokens;
@@ -314,6 +314,23 @@ declare const tokens: {
   },
   "modal": DesignToken,
   "footer-progressbar": DesignToken,
+  "shadow": {
+    "edit-questionnaire-item": DesignToken,
+    "main-content-questionnaire-background": DesignToken,
+    "question-base": DesignToken,
+    "panel-base": DesignToken,
+    "environment-completed": DesignToken,
+    "edit-step-list-item": DesignToken,
+    "header": DesignToken,
+    "completed-base": DesignToken,
+    "edit-complete-action-modal-header": DesignToken
+  },
+  "line-hight": {
+    "nomal": DesignToken,
+    "none": DesignToken,
+    "tight": DesignToken,
+    "relaxed": DesignToken
+  },
   "font-weight": {
     "W3": DesignToken,
     "W6": DesignToken
@@ -334,7 +351,12 @@ declare const tokens: {
     "32": DesignToken,
     "48": DesignToken
   },
-  "line-height": {
-    "standard": DesignToken
+  "box-shadow": {
+    "legacy-1": DesignToken,
+    "legacy-2": DesignToken,
+    "legacy-3": DesignToken,
+    "legacy-4": DesignToken,
+    "legacy-6": DesignToken,
+    "legacy-5": DesignToken
   }
 }
