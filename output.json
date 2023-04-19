@@ -688,15 +688,15 @@
       "value": "4px",
       "type": "spacing"
     },
-    "s": {
+    "sm": {
       "value": "8px",
       "type": "spacing"
     },
-    "m": {
+    "md": {
       "value": "16px",
       "type": "spacing"
     },
-    "l": {
+    "lg": {
       "value": "24px",
       "type": "spacing"
     },
@@ -730,11 +730,11 @@
       "value": "2px",
       "type": "borderWidth"
     },
-    "s": {
+    "sm": {
       "value": "1px",
       "type": "borderWidth"
     },
-    "m": {
+    "md": {
       "value": "2px",
       "type": "borderWidth"
     }
@@ -813,6 +813,96 @@
         },
         "type": "typography"
       }
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.25rem",
+        "fontSize": "24px"
+      },
+      "type": "typography"
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.25rem",
+        "fontSize": "16px"
+      },
+      "type": "typography"
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.5rem",
+        "fontSize": "15px"
+      },
+      "type": "typography"
+    },
+    "h5": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.5rem",
+        "fontSize": "14px"
+      },
+      "type": "typography"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1.5rem",
+        "fontSize": "16px"
+      },
+      "type": "typography"
+    },
+    "caption": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1.75rem",
+        "fontSize": "11px"
+      },
+      "type": "typography"
+    },
+    "label-lg": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "14px"
+      },
+      "type": "typography"
+    },
+    "label-md": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "11px"
+      },
+      "type": "typography"
+    },
+    "ui-button": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "14px"
+      },
+      "type": "typography"
+    },
+    "ui-icon": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "11px"
+      },
+      "type": "typography"
     }
   },
   "z-index": {
@@ -1065,7 +1155,7 @@
       "description": "基本の行送り"
     },
     "none": {
-      "value": 1,
+      "value": "1rem",
       "type": "lineHeights",
       "description": "行送りナシ。ボタンなど改行の必要ないラベルに使用を想定\n"
     },
@@ -1080,7 +1170,25 @@
       "description": "ゆったりめの行送り。規約など長い本文などでの使用を想定"
     }
   },
+  "font-family": {
+    "primary": {
+      "value": "'Hiragino Sans'",
+      "type": "fontFamilies"
+    },
+    "hiragino-sans": {
+      "value": "'Hiragino Sans'",
+      "type": "fontFamilies"
+    }
+  },
   "font-weight": {
+    "regular": {
+      "value": 300,
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": 600,
+      "type": "fontWeights"
+    },
     "W3": {
       "value": 300,
       "type": "fontWeights"
@@ -1090,10 +1198,14 @@
       "type": "fontWeights"
     }
   },
-  "font-family": {
-    "hiragino-sans": {
-      "value": "'Hiragino Sans'",
-      "type": "fontFamilies"
+  "border-radius": {
+    "4": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "4px",
+      "type": "borderRadius"
     }
   },
   "font-size": {
@@ -1208,6 +1320,24 @@
         "type": "innerShadow"
       },
       "type": "boxShadow"
+    }
+  },
+  "line-height": {
+    "xs": {
+      "value": "1rem",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "1.25rem",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "1.5rem",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "1.75rem",
+      "type": "lineHeights"
     }
   }
 }

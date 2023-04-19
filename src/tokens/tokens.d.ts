@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Mar 2023 08:30:14 GMT
+ * Generated on Wed, 19 Apr 2023 05:16:35 GMT
  */
 
 export default tokens;
@@ -250,9 +250,9 @@ declare const tokens: {
   },
   "spacing": {
     "xs": DesignToken,
-    "s": DesignToken,
-    "m": DesignToken,
-    "l": DesignToken,
+    "sm": DesignToken,
+    "md": DesignToken,
+    "lg": DesignToken,
     "xl": DesignToken,
     "xxl": DesignToken,
     "xxxl": DesignToken,
@@ -262,8 +262,8 @@ declare const tokens: {
   "border-width": {
     "1": DesignToken,
     "2": DesignToken,
-    "s": DesignToken,
-    "m": DesignToken
+    "sm": DesignToken,
+    "md": DesignToken
   },
   "typography": {
     "question": {
@@ -275,7 +275,17 @@ declare const tokens: {
       "size5": DesignToken,
       "size6": DesignToken,
       "size7": DesignToken
-    }
+    },
+    "h2": DesignToken,
+    "h3": DesignToken,
+    "h4": DesignToken,
+    "h5": DesignToken,
+    "body": DesignToken,
+    "caption": DesignToken,
+    "label-lg": DesignToken,
+    "label-md": DesignToken,
+    "ui-button": DesignToken,
+    "ui-icon": DesignToken
   },
   "z-index": {
     "0": DesignToken,
@@ -331,12 +341,19 @@ declare const tokens: {
     "tight": DesignToken,
     "relaxed": DesignToken
   },
+  "font-family": {
+    "primary": DesignToken,
+    "hiragino-sans": DesignToken
+  },
   "font-weight": {
+    "regular": DesignToken,
+    "bold": DesignToken,
     "W3": DesignToken,
     "W6": DesignToken
   },
-  "font-family": {
-    "hiragino-sans": DesignToken
+  "border-radius": {
+    "4": DesignToken,
+    "md": DesignToken
   },
   "font-size": {
     "10": DesignToken,
@@ -358,5 +375,11 @@ declare const tokens: {
     "legacy-4": DesignToken,
     "legacy-6": DesignToken,
     "legacy-5": DesignToken
+  },
+  "line-height": {
+    "xs": DesignToken,
+    "md": DesignToken,
+    "lg": DesignToken,
+    "xl": DesignToken
   }
 }
