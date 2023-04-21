@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Mar 2023 08:30:14 GMT
+ * Generated on Wed, 19 Apr 2023 05:16:35 GMT
  */
 
 module.exports = {
@@ -3372,7 +3372,7 @@ module.exports = {
         "xs"
       ]
     },
-    "s": {
+    "sm": {
       "value": "8px",
       "type": "spacing",
       "filePath": "output.json",
@@ -3381,17 +3381,17 @@ module.exports = {
         "value": "8px",
         "type": "spacing"
       },
-      "name": "SpacingS",
+      "name": "SpacingSm",
       "attributes": {
         "category": "spacing",
-        "type": "s"
+        "type": "sm"
       },
       "path": [
         "spacing",
-        "s"
+        "sm"
       ]
     },
-    "m": {
+    "md": {
       "value": "16px",
       "type": "spacing",
       "filePath": "output.json",
@@ -3400,17 +3400,17 @@ module.exports = {
         "value": "16px",
         "type": "spacing"
       },
-      "name": "SpacingM",
+      "name": "SpacingMd",
       "attributes": {
         "category": "spacing",
-        "type": "m"
+        "type": "md"
       },
       "path": [
         "spacing",
-        "m"
+        "md"
       ]
     },
-    "l": {
+    "lg": {
       "value": "24px",
       "type": "spacing",
       "filePath": "output.json",
@@ -3419,14 +3419,14 @@ module.exports = {
         "value": "24px",
         "type": "spacing"
       },
-      "name": "SpacingL",
+      "name": "SpacingLg",
       "attributes": {
         "category": "spacing",
-        "type": "l"
+        "type": "lg"
       },
       "path": [
         "spacing",
-        "l"
+        "lg"
       ]
     },
     "xl": {
@@ -3564,7 +3564,7 @@ module.exports = {
         "2"
       ]
     },
-    "s": {
+    "sm": {
       "value": "1px",
       "type": "borderWidth",
       "filePath": "output.json",
@@ -3573,17 +3573,17 @@ module.exports = {
         "value": "1px",
         "type": "borderWidth"
       },
-      "name": "BorderWidthS",
+      "name": "BorderWidthSm",
       "attributes": {
         "category": "border-width",
-        "type": "s"
+        "type": "sm"
       },
       "path": [
         "border-width",
-        "s"
+        "sm"
       ]
     },
-    "m": {
+    "md": {
       "value": "2px",
       "type": "borderWidth",
       "filePath": "output.json",
@@ -3592,14 +3592,14 @@ module.exports = {
         "value": "2px",
         "type": "borderWidth"
       },
-      "name": "BorderWidthM",
+      "name": "BorderWidthMd",
       "attributes": {
         "category": "border-width",
-        "type": "m"
+        "type": "md"
       },
       "path": [
         "border-width",
-        "m"
+        "md"
       ]
     }
   },
@@ -3853,6 +3853,296 @@ module.exports = {
           "size7"
         ]
       }
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.25rem",
+        "fontSize": "24px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 600,
+          "lineHeight": "1.25rem",
+          "fontSize": "24px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyH2",
+      "attributes": {
+        "category": "typography",
+        "type": "h2"
+      },
+      "path": [
+        "typography",
+        "h2"
+      ]
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.25rem",
+        "fontSize": "16px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 600,
+          "lineHeight": "1.25rem",
+          "fontSize": "16px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyH3",
+      "attributes": {
+        "category": "typography",
+        "type": "h3"
+      },
+      "path": [
+        "typography",
+        "h3"
+      ]
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.5rem",
+        "fontSize": "15px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 600,
+          "lineHeight": "1.5rem",
+          "fontSize": "15px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyH4",
+      "attributes": {
+        "category": "typography",
+        "type": "h4"
+      },
+      "path": [
+        "typography",
+        "h4"
+      ]
+    },
+    "h5": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 600,
+        "lineHeight": "1.5rem",
+        "fontSize": "14px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 600,
+          "lineHeight": "1.5rem",
+          "fontSize": "14px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyH5",
+      "attributes": {
+        "category": "typography",
+        "type": "h5"
+      },
+      "path": [
+        "typography",
+        "h5"
+      ]
+    },
+    "body": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1.5rem",
+        "fontSize": "16px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "lineHeight": "1.5rem",
+          "fontSize": "16px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyBody",
+      "attributes": {
+        "category": "typography",
+        "type": "body"
+      },
+      "path": [
+        "typography",
+        "body"
+      ]
+    },
+    "caption": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1.75rem",
+        "fontSize": "11px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "lineHeight": "1.75rem",
+          "fontSize": "11px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyCaption",
+      "attributes": {
+        "category": "typography",
+        "type": "caption"
+      },
+      "path": [
+        "typography",
+        "caption"
+      ]
+    },
+    "label-lg": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "14px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "lineHeight": "1rem",
+          "fontSize": "14px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyLabelLg",
+      "attributes": {
+        "category": "typography",
+        "type": "label-lg"
+      },
+      "path": [
+        "typography",
+        "label-lg"
+      ]
+    },
+    "label-md": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "11px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "lineHeight": "1rem",
+          "fontSize": "11px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyLabelMd",
+      "attributes": {
+        "category": "typography",
+        "type": "label-md"
+      },
+      "path": [
+        "typography",
+        "label-md"
+      ]
+    },
+    "ui-button": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "14px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "lineHeight": "1rem",
+          "fontSize": "14px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyUiButton",
+      "attributes": {
+        "category": "typography",
+        "type": "ui-button"
+      },
+      "path": [
+        "typography",
+        "ui-button"
+      ]
+    },
+    "ui-icon": {
+      "value": {
+        "fontFamily": "'Hiragino Sans'",
+        "fontWeight": 300,
+        "lineHeight": "1rem",
+        "fontSize": "11px"
+      },
+      "type": "typography",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "'Hiragino Sans'",
+          "fontWeight": 300,
+          "lineHeight": "1rem",
+          "fontSize": "11px"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyUiIcon",
+      "attributes": {
+        "category": "typography",
+        "type": "ui-icon"
+      },
+      "path": [
+        "typography",
+        "ui-icon"
+      ]
     }
   },
   "z-index": {
@@ -4840,13 +5130,13 @@ module.exports = {
       ]
     },
     "none": {
-      "value": 1,
+      "value": "1rem",
       "type": "lineHeights",
       "description": "行送りナシ。ボタンなど改行の必要ないラベルに使用を想定\n",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": 1,
+        "value": "1rem",
         "type": "lineHeights",
         "description": "行送りナシ。ボタンなど改行の必要ないラベルに使用を想定\n"
       },
@@ -4903,7 +5193,85 @@ module.exports = {
       ]
     }
   },
+  "font-family": {
+    "primary": {
+      "value": "'Hiragino Sans'",
+      "type": "fontFamilies",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
+      },
+      "name": "FontFamilyPrimary",
+      "attributes": {
+        "category": "font-family",
+        "type": "primary"
+      },
+      "path": [
+        "font-family",
+        "primary"
+      ]
+    },
+    "hiragino-sans": {
+      "value": "'Hiragino Sans'",
+      "type": "fontFamilies",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
+      },
+      "name": "FontFamilyHiraginoSans",
+      "attributes": {
+        "category": "font-family",
+        "type": "hiragino-sans"
+      },
+      "path": [
+        "font-family",
+        "hiragino-sans"
+      ]
+    }
+  },
   "font-weight": {
+    "regular": {
+      "value": 300,
+      "type": "fontWeights",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 300,
+        "type": "fontWeights"
+      },
+      "name": "FontWeightRegular",
+      "attributes": {
+        "category": "font-weight",
+        "type": "regular"
+      },
+      "path": [
+        "font-weight",
+        "regular"
+      ]
+    },
+    "bold": {
+      "value": 600,
+      "type": "fontWeights",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "name": "FontWeightBold",
+      "attributes": {
+        "category": "font-weight",
+        "type": "bold"
+      },
+      "path": [
+        "font-weight",
+        "bold"
+      ]
+    },
     "W3": {
       "value": 300,
       "type": "fontWeights",
@@ -4943,24 +5311,43 @@ module.exports = {
       ]
     }
   },
-  "font-family": {
-    "hiragino-sans": {
-      "value": "'Hiragino Sans'",
-      "type": "fontFamilies",
+  "border-radius": {
+    "4": {
+      "value": "4px",
+      "type": "borderRadius",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": "'Hiragino Sans'",
-        "type": "fontFamilies"
+        "value": "4px",
+        "type": "borderRadius"
       },
-      "name": "FontFamilyHiraginoSans",
+      "name": "BorderRadius4",
       "attributes": {
-        "category": "font-family",
-        "type": "hiragino-sans"
+        "category": "border-radius",
+        "type": "4"
       },
       "path": [
-        "font-family",
-        "hiragino-sans"
+        "border-radius",
+        "4"
+      ]
+    },
+    "md": {
+      "value": "4px",
+      "type": "borderRadius",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "4px",
+        "type": "borderRadius"
+      },
+      "name": "BorderRadiusMd",
+      "attributes": {
+        "category": "border-radius",
+        "type": "md"
+      },
+      "path": [
+        "border-radius",
+        "md"
       ]
     }
   },
@@ -5372,6 +5759,84 @@ module.exports = {
       "path": [
         "box-shadow",
         "legacy-5"
+      ]
+    }
+  },
+  "line-height": {
+    "xs": {
+      "value": "1rem",
+      "type": "lineHeights",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "1rem",
+        "type": "lineHeights"
+      },
+      "name": "LineHeightXs",
+      "attributes": {
+        "category": "line-height",
+        "type": "xs"
+      },
+      "path": [
+        "line-height",
+        "xs"
+      ]
+    },
+    "md": {
+      "value": "1.25rem",
+      "type": "lineHeights",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "1.25rem",
+        "type": "lineHeights"
+      },
+      "name": "LineHeightMd",
+      "attributes": {
+        "category": "line-height",
+        "type": "md"
+      },
+      "path": [
+        "line-height",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": "1.5rem",
+      "type": "lineHeights",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "1.5rem",
+        "type": "lineHeights"
+      },
+      "name": "LineHeightLg",
+      "attributes": {
+        "category": "line-height",
+        "type": "lg"
+      },
+      "path": [
+        "line-height",
+        "lg"
+      ]
+    },
+    "xl": {
+      "value": "1.75rem",
+      "type": "lineHeights",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "1.75rem",
+        "type": "lineHeights"
+      },
+      "name": "LineHeightXl",
+      "attributes": {
+        "category": "line-height",
+        "type": "xl"
+      },
+      "path": [
+        "line-height",
+        "xl"
       ]
     }
   }

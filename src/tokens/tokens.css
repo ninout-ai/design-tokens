@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Mar 2023 08:30:14 GMT
+ * Generated on Wed, 19 Apr 2023 05:16:35 GMT
  */
 
 :root {
@@ -155,9 +155,9 @@
   --color-green-500: #7ba544;
   --color-pink-500: #dc7b9b;
   --spacing-xs: 4px;
-  --spacing-s: 8px;
-  --spacing-m: 16px;
-  --spacing-l: 24px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
   --spacing-xl: 40px;
   --spacing-xxl: 64px;
   --spacing-xxxl: 104px;
@@ -165,8 +165,8 @@
   --spacing-legacy-standard: 5px;
   --border-width-1: 1px;
   --border-width-2: 2px;
-  --border-width-s: 1px;
-  --border-width-m: 2px;
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
   --typography-question-default: [object Object];
   --typography-question-size1: [object Object];
   --typography-question-size2: [object Object];
@@ -175,6 +175,16 @@
   --typography-question-size5: [object Object];
   --typography-question-size6: [object Object];
   --typography-question-size7: [object Object];
+  --typography-h2: [object Object];
+  --typography-h3: [object Object];
+  --typography-h4: [object Object];
+  --typography-h5: [object Object];
+  --typography-body: [object Object];
+  --typography-caption: [object Object];
+  --typography-label-lg: [object Object];
+  --typography-label-md: [object Object];
+  --typography-ui-button: [object Object];
+  --typography-ui-icon: [object Object];
   --z-index-0: 0;
   --z-index-1: 1;
   --z-index-3: 3;
@@ -220,12 +230,17 @@
   --shadow-completed-base: [object Object];
   --shadow-edit-complete-action-modal-header: [object Object];
   --line-hight-nomal: 1.5rem;
-  --line-hight-none: 1;
+  --line-hight-none: 1rem;
   --line-hight-tight: 1.25rem;
   --line-hight-relaxed: 1.75rem;
+  --font-family-primary: 'Hiragino Sans';
+  --font-family-hiragino-sans: 'Hiragino Sans';
+  --font-weight-regular: 300;
+  --font-weight-bold: 600;
   --font-weight-w3: 300;
   --font-weight-w6: 600;
-  --font-family-hiragino-sans: 'Hiragino Sans';
+  --border-radius-4: 4px;
+  --border-radius-md: 4px;
   --font-size-10: 10px;
   --font-size-11: 11px;
   --font-size-13: 13px;
@@ -243,4 +258,8 @@
   --box-shadow-legacy-4: [object Object];
   --box-shadow-legacy-6: [object Object];
   --box-shadow-legacy-5: [object Object];
+  --line-height-xs: 1rem;
+  --line-height-md: 1.25rem;
+  --line-height-lg: 1.5rem;
+  --line-height-xl: 1.75rem;
 }
