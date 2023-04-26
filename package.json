@@ -1,6 +1,6 @@
 {
   "name": "@creativesurveyapp/design-tokens",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Creative Survey Design Tokens",
   "style": [
     "src/tokens/tokens.css",
