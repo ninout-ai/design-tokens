@@ -1,6 +1,6 @@
 {
   "name": "@creativesurveyapp/design-tokens",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Creative Survey Design Tokens",
   "style": [
     "src/tokens/tokens.css",
@@ -10,7 +10,6 @@
     "src/tokens/**"
   ],
   "publishConfig": {
-    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
