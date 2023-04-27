@@ -1,43 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 19 Apr 2023 05:16:35 GMT
+ * Generated on Thu, 27 Apr 2023 05:53:22 GMT
  */
 
 module.exports = {
-  "50": {
-    "value": 0.5,
-    "type": "opacity",
-    "filePath": "output.json",
-    "isSource": true,
-    "original": {
-      "value": 0.5,
-      "type": "opacity"
-    },
-    "name": "50",
-    "attributes": {
-      "category": "50"
-    },
-    "path": [
-      "50"
-    ]
-  },
-  "70": {
-    "value": 0.7,
-    "type": "opacity",
-    "filePath": "output.json",
-    "isSource": true,
-    "original": {
-      "value": 0.7,
-      "type": "opacity"
-    },
-    "name": "70",
-    "attributes": {
-      "category": "70"
-    },
-    "path": [
-      "70"
-    ]
-  },
   "tokenSetOrder": {
     "0": {
       "value": "primitive",
@@ -5348,6 +5314,46 @@ module.exports = {
       "path": [
         "border-radius",
         "md"
+      ]
+    }
+  },
+  "opacity": {
+    "50": {
+      "value": 0.5,
+      "type": "opacity",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 0.5,
+        "type": "opacity"
+      },
+      "name": "Opacity50",
+      "attributes": {
+        "category": "opacity",
+        "type": "50"
+      },
+      "path": [
+        "opacity",
+        "50"
+      ]
+    },
+    "70": {
+      "value": 0.7,
+      "type": "opacity",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": 0.7,
+        "type": "opacity"
+      },
+      "name": "Opacity70",
+      "attributes": {
+        "category": "opacity",
+        "type": "70"
+      },
+      "path": [
+        "opacity",
+        "70"
       ]
     }
   },
