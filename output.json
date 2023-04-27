@@ -1,12 +1,4 @@
 {
-  "50": {
-    "value": 0.5,
-    "type": "opacity"
-  },
-  "70": {
-    "value": 0.7,
-    "type": "opacity"
-  },
   "tokenSetOrder": {
     "0": {
       "value": "primitive",
@@ -1206,6 +1198,16 @@
     "md": {
       "value": "4px",
       "type": "borderRadius"
+    }
+  },
+  "opacity": {
+    "50": {
+      "value": 0.5,
+      "type": "opacity"
+    },
+    "70": {
+      "value": 0.7,
+      "type": "opacity"
     }
   },
   "font-size": {

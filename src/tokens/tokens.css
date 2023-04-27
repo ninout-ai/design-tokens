@@ -1,11 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 19 Apr 2023 05:16:35 GMT
+ * Generated on Thu, 27 Apr 2023 05:53:22 GMT
  */
 
 :root {
-  --50: 0.5;
-  --70: 0.7;
   --token-set-order-0: primitive;
   --token-set-order-1: semantic;
   --color-text-body: #333333;
@@ -241,6 +239,8 @@
   --font-weight-w6: 600;
   --border-radius-4: 4px;
   --border-radius-md: 4px;
+  --opacity-50: 0.5;
+  --opacity-70: 0.7;
   --font-size-10: 10px;
   --font-size-11: 11px;
   --font-size-13: 13px;
