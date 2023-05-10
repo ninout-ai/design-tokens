@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 27 Apr 2023 05:53:22 GMT
+ * Generated on Wed, 10 May 2023 01:55:33 GMT
  */
 
 module.exports = {
@@ -1417,7 +1417,7 @@ module.exports = {
         }
       }
     },
-    "bland": {
+    "brand": {
       "cs-orange": {
         "value": "#f49e00",
         "type": "color",
@@ -1427,15 +1427,15 @@ module.exports = {
           "value": "#F49E00",
           "type": "color"
         },
-        "name": "ColorBlandCsOrange",
+        "name": "ColorBrandCsOrange",
         "attributes": {
           "category": "color",
-          "type": "bland",
+          "type": "brand",
           "item": "cs-orange"
         },
         "path": [
           "color",
-          "bland",
+          "brand",
           "cs-orange"
         ]
       },
@@ -1448,15 +1448,15 @@ module.exports = {
           "value": "#ADA6A1",
           "type": "color"
         },
-        "name": "ColorBlandCsLightgray",
+        "name": "ColorBrandCsLightgray",
         "attributes": {
           "category": "color",
-          "type": "bland",
+          "type": "brand",
           "item": "cs-lightgray"
         },
         "path": [
           "color",
-          "bland",
+          "brand",
           "cs-lightgray"
         ]
       },
@@ -1469,15 +1469,15 @@ module.exports = {
           "value": "#6A6A6A",
           "type": "color"
         },
-        "name": "ColorBlandCsDarkgray",
+        "name": "ColorBrandCsDarkgray",
         "attributes": {
           "category": "color",
-          "type": "bland",
+          "type": "brand",
           "item": "cs-darkgray"
         },
         "path": [
           "color",
-          "bland",
+          "brand",
           "cs-darkgray"
         ]
       }
@@ -2562,71 +2562,6 @@ module.exports = {
           "color",
           "gray",
           "900"
-        ]
-      }
-    },
-    "brand": {
-      "cs-lightgray": {
-        "value": "#ada6a1",
-        "type": "color",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": "#ADA6A1",
-          "type": "color"
-        },
-        "name": "ColorBrandCsLightgray",
-        "attributes": {
-          "category": "color",
-          "type": "brand",
-          "item": "cs-lightgray"
-        },
-        "path": [
-          "color",
-          "brand",
-          "cs-lightgray"
-        ]
-      },
-      "cs-orange": {
-        "value": "#f49e00",
-        "type": "color",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": "#F49E00",
-          "type": "color"
-        },
-        "name": "ColorBrandCsOrange",
-        "attributes": {
-          "category": "color",
-          "type": "brand",
-          "item": "cs-orange"
-        },
-        "path": [
-          "color",
-          "brand",
-          "cs-orange"
-        ]
-      },
-      "cs-darkgray": {
-        "value": "#6a6a6a",
-        "type": "color",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": "#6A6A6A",
-          "type": "color"
-        },
-        "name": "ColorBrandCsDarkgray",
-        "attributes": {
-          "category": "color",
-          "type": "brand",
-          "item": "cs-darkgray"
-        },
-        "path": [
-          "color",
-          "brand",
-          "cs-darkgray"
         ]
       }
     },

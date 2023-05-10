@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 27 Apr 2023 05:53:22 GMT
+ * Generated on Wed, 10 May 2023 01:55:33 GMT
  */
 
 export default tokens;
@@ -109,7 +109,7 @@ declare const tokens: {
         "disable": DesignToken
       }
     },
-    "bland": {
+    "brand": {
       "cs-orange": DesignToken,
       "cs-lightgray": DesignToken,
       "cs-darkgray": DesignToken
@@ -188,11 +188,6 @@ declare const tokens: {
       "750": DesignToken,
       "800": DesignToken,
       "900": DesignToken
-    },
-    "brand": {
-      "cs-lightgray": DesignToken,
-      "cs-orange": DesignToken,
-      "cs-darkgray": DesignToken
     },
     "blue": {
       "50": DesignToken,
