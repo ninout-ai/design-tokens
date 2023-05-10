@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 May 2023 01:51:04 GMT
+ * Generated on Wed, 10 May 2023 01:55:33 GMT
  */
 
 export default tokens;
@@ -112,10 +112,7 @@ declare const tokens: {
     "brand": {
       "cs-orange": DesignToken,
       "cs-lightgray": DesignToken,
-      "cs-darkgray": DesignToken,
-      "lightgray": DesignToken,
-      "orange": DesignToken,
-      "darkgray": DesignToken
+      "cs-darkgray": DesignToken
     },
     "calender": {
       "weekday": DesignToken,

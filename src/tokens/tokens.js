@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 May 2023 01:51:04 GMT
+ * Generated on Wed, 10 May 2023 01:55:33 GMT
  */
 
 module.exports = {
@@ -1479,69 +1479,6 @@ module.exports = {
           "color",
           "brand",
           "cs-darkgray"
-        ]
-      },
-      "lightgray": {
-        "value": "#ada6a1",
-        "type": "color",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": "#ADA6A1",
-          "type": "color"
-        },
-        "name": "ColorBrandLightgray",
-        "attributes": {
-          "category": "color",
-          "type": "brand",
-          "item": "lightgray"
-        },
-        "path": [
-          "color",
-          "brand",
-          "lightgray"
-        ]
-      },
-      "orange": {
-        "value": "#f49e00",
-        "type": "color",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": "#F49E00",
-          "type": "color"
-        },
-        "name": "ColorBrandOrange",
-        "attributes": {
-          "category": "color",
-          "type": "brand",
-          "item": "orange"
-        },
-        "path": [
-          "color",
-          "brand",
-          "orange"
-        ]
-      },
-      "darkgray": {
-        "value": "#6a6a6a",
-        "type": "color",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": "#6A6A6A",
-          "type": "color"
-        },
-        "name": "ColorBrandDarkgray",
-        "attributes": {
-          "category": "color",
-          "type": "brand",
-          "item": "darkgray"
-        },
-        "path": [
-          "color",
-          "brand",
-          "darkgray"
         ]
       }
     },

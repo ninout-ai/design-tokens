@@ -284,18 +284,6 @@
       "cs-darkgray": {
         "value": "#6A6A6A",
         "type": "color"
-      },
-      "lightgray": {
-        "value": "#ADA6A1",
-        "type": "color"
-      },
-      "orange": {
-        "value": "#F49E00",
-        "type": "color"
-      },
-      "darkgray": {
-        "value": "#6A6A6A",
-        "type": "color"
       }
     },
     "calender": {
