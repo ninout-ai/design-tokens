@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 May 2023 01:55:33 GMT
+ * Generated on Tue, 11 Jul 2023 04:39:00 GMT
  */
 
 module.exports = {
@@ -68,12 +68,12 @@ module.exports = {
         ]
       },
       "primary": {
-        "value": "#73b1c0",
+        "value": "#64b5c9",
         "type": "color",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color"
         },
         "name": "ColorTextPrimary",
@@ -223,12 +223,12 @@ module.exports = {
     },
     "label-folder": {
       "blue": {
-        "value": "#73b1c0",
+        "value": "#64b5c9",
         "type": "color",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color"
         },
         "name": "ColorLabelFolderBlue",
@@ -394,12 +394,12 @@ module.exports = {
     "button": {
       "primary": {
         "default": {
-          "value": "#73b1c0",
+          "value": "#64b5c9",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#73B1C0",
+            "value": "#64b5c9",
             "type": "color"
           },
           "name": "ColorButtonPrimaryDefault",
@@ -463,12 +463,12 @@ module.exports = {
           ]
         },
         "outline-default": {
-          "value": "#73b1c0",
+          "value": "#64b5c9",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#73B1C0",
+            "value": "#64b5c9",
             "type": "color"
           },
           "name": "ColorButtonPrimaryOutlineDefault",
@@ -1633,12 +1633,12 @@ module.exports = {
         ]
       },
       "primary": {
-        "value": "#73b1c0",
+        "value": "#64b5c9",
         "type": "color",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color"
         },
         "name": "ColorIconPrimary",
@@ -1919,12 +1919,12 @@ module.exports = {
       },
       "normal": {
         "primary": {
-          "value": "#73b1c0",
+          "value": "#64b5c9",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#73B1C0",
+            "value": "#64b5c9",
             "type": "color"
           },
           "name": "ColorSurfaceNormalPrimary",
@@ -2161,12 +2161,12 @@ module.exports = {
       },
       "normal": {
         "primary": {
-          "value": "#73b1c0",
+          "value": "#64b5c9",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#73B1C0",
+            "value": "#64b5c9",
             "type": "color"
           },
           "name": "ColorBorderNormalPrimary",
@@ -2672,13 +2672,13 @@ module.exports = {
         ]
       },
       "500-primary": {
-        "value": "#73b1c0",
+        "value": "#64b5c9",
         "type": "color",
         "description": "デフォルトカラー",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color",
           "description": "デフォルトカラー"
         },

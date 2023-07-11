@@ -16,7 +16,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "#73B1C0",
+        "value": "#64b5c9",
         "type": "color"
       },
       "accent": {
@@ -48,7 +48,7 @@
     },
     "label-folder": {
       "blue": {
-        "value": "#73B1C0",
+        "value": "#64b5c9",
         "type": "color"
       },
       "purple": {
@@ -83,7 +83,7 @@
     "button": {
       "primary": {
         "default": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color"
         },
         "hover": {
@@ -95,7 +95,7 @@
           "type": "color"
         },
         "outline-default": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color"
         },
         "outline-hover": {
@@ -318,7 +318,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "#73B1C0",
+        "value": "#64b5c9",
         "type": "color"
       },
       "secondary": {
@@ -375,7 +375,7 @@
       },
       "normal": {
         "primary": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color"
         },
         "secondary": {
@@ -427,7 +427,7 @@
       },
       "normal": {
         "primary": {
-          "value": "#73B1C0",
+          "value": "#64b5c9",
           "type": "color"
         },
         "secondary": {
@@ -530,7 +530,7 @@
         "type": "color"
       },
       "500-primary": {
-        "value": "#73B1C0",
+        "value": "#64b5c9",
         "type": "color",
         "description": "デフォルトカラー"
       }
