@@ -1,20 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 May 2023 01:55:33 GMT
+ * Generated on Tue, 11 Jul 2023 04:35:51 GMT
  */
 
 :root {
   --token-set-order-0: primitive;
   --token-set-order-1: semantic;
   --color-text-body: #333333;
-  --color-text-primary: #73b1c0;
+  --color-text-primary: #64b5c9;
   --color-text-accent: #eaa21a;
   --color-text-white: #ffffff;
   --color-text-place-holder: #bababa;
   --color-text-disable: #e0e0e0;
   --color-text-label-text-primary: #4b4b4b;
   --color-text-label-text-secondary: #333333;
-  --color-label-folder-blue: #73b1c0;
+  --color-label-folder-blue: #64b5c9;
   --color-label-folder-purple: #757ec0;
   --color-label-folder-red: #d24623;
   --color-label-folder-green: #7ba544;
@@ -22,10 +22,10 @@
   --color-label-folder-yellow: #e7b727;
   --color-label-folder-orange: #eaa21a;
   --color-label-folder-gray: #999999;
-  --color-button-primary-default: #73b1c0;
+  --color-button-primary-default: #64b5c9;
   --color-button-primary-hover: #8abecb;
   --color-button-primary-disable: #d4e7ed;
-  --color-button-primary-outline-default: #73b1c0;
+  --color-button-primary-outline-default: #64b5c9;
   --color-button-primary-outline-hover: #f4f9fa;
   --color-button-primary-hover-light: #f1fbfd;
   --color-button-primary-outline-disable: #d4e7ed;
@@ -76,7 +76,7 @@
   --color-calender-saturday: #3989ce;
   --color-calender-saturday-othermonth: #a6cae9;
   --color-icon-default: #333333;
-  --color-icon-primary: #73b1c0;
+  --color-icon-primary: #64b5c9;
   --color-icon-secondary: #d24623;
   --color-icon-accent: #eaa21a;
   --color-icon-logic: #e7b727;
@@ -89,7 +89,7 @@
   --color-surface-neutral-secondary: #e0e0e0;
   --color-surface-neutral-tertiary: #999999;
   --color-surface-neutral-quaternary: #494949;
-  --color-surface-normal-primary: #73b1c0;
+  --color-surface-normal-primary: #64b5c9;
   --color-surface-normal-secondary: #d4e7ed;
   --color-surface-normal-tertiary: #f1fbfd;
   --color-surface-theme-primary-primary: #38aec9;
@@ -99,7 +99,7 @@
   --color-border-neutral-secondary: #7c7c7c;
   --color-border-neutral-tertiary: #e0e0e0;
   --color-border-theme-primary-primary: #38aec9;
-  --color-border-normal-primary: #73b1c0;
+  --color-border-normal-primary: #64b5c9;
   --color-border-normal-secondary: #d4e7ed;
   --color-border-focus: #0054c5;
   --color-border-white: #ffffff;
@@ -123,7 +123,7 @@
   --color-blue-200: #d4e7ed;
   --color-blue-400: #8abecb;
   --color-blue-600: #509db0;
-  --color-blue-500-primary: #73b1c0;
+  --color-blue-500-primary: #64b5c9;
   --color-orange-100: #fff7e9;
   --color-orange-200: #f8e1b6;
   --color-orange-400: #eeb549;
