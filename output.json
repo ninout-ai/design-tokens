@@ -44,6 +44,10 @@
           "value": "#333333",
           "type": "color"
         }
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
       }
     },
     "label-folder": {
@@ -345,7 +349,7 @@
         "value": "#BABABA",
         "type": "color"
       },
-      "balloon": {
+      "black": {
         "value": "#000000",
         "type": "color"
       }
@@ -402,6 +406,10 @@
           "value": "#5C747F",
           "type": "color"
         }
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
       }
     },
     "border": {
