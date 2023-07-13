@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 11 Jul 2023 04:39:00 GMT
+ * Generated on Thu, 13 Jul 2023 09:14:03 GMT
  */
 
 export default tokens;
@@ -37,7 +37,8 @@ declare const tokens: {
       "label-text": {
         "primary": DesignToken,
         "secondary": DesignToken
-      }
+      },
+      "black": DesignToken
     },
     "label-folder": {
       "blue": DesignToken,
@@ -131,7 +132,7 @@ declare const tokens: {
       "basic": DesignToken,
       "white": DesignToken,
       "disable": DesignToken,
-      "balloon": DesignToken
+      "black": DesignToken
     },
     "surface": {
       "white": DesignToken,
@@ -152,7 +153,8 @@ declare const tokens: {
       "accent": {
         "primary": DesignToken,
         "secondary": DesignToken
-      }
+      },
+      "black": DesignToken
     },
     "border": {
       "neutral": {

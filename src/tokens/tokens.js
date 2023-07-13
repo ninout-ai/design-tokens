@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 11 Jul 2023 04:39:00 GMT
+ * Generated on Thu, 13 Jul 2023 09:14:03 GMT
  */
 
 module.exports = {
@@ -219,6 +219,27 @@ module.exports = {
             "secondary"
           ]
         }
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "name": "ColorTextBlack",
+        "attributes": {
+          "category": "color",
+          "type": "text",
+          "item": "black"
+        },
+        "path": [
+          "color",
+          "text",
+          "black"
+        ]
       }
     },
     "label-folder": {
@@ -1779,7 +1800,7 @@ module.exports = {
           "disable"
         ]
       },
-      "balloon": {
+      "black": {
         "value": "#000000",
         "type": "color",
         "filePath": "output.json",
@@ -1788,16 +1809,16 @@ module.exports = {
           "value": "#000000",
           "type": "color"
         },
-        "name": "ColorIconBalloon",
+        "name": "ColorIconBlack",
         "attributes": {
           "category": "color",
           "type": "icon",
-          "item": "balloon"
+          "item": "black"
         },
         "path": [
           "color",
           "icon",
-          "balloon"
+          "black"
         ]
       }
     },
@@ -2060,6 +2081,27 @@ module.exports = {
             "secondary"
           ]
         }
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "name": "ColorSurfaceBlack",
+        "attributes": {
+          "category": "color",
+          "type": "surface",
+          "item": "black"
+        },
+        "path": [
+          "color",
+          "surface",
+          "black"
+        ]
       }
     },
     "border": {
