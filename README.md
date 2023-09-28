@@ -10,13 +10,14 @@ npm install @creativesurveyapp/design-tokens
 ```
 ├── .github/
 │   ├── workflows/
+|       ├── build.yml
 │       ├── publish.yml
 ├── src/
 │   ├── tokens/
-│       ├── base.json
-│       ├── font.json
-│       ├── font.json
-│       ├── font.json
+│       ├── tokens.css
+│       ├── tokens.d.ts
+│       ├── tokens.js
+│       ├── tokens.scss
 ├── output.json
 ├── package.json
 ├── README.md
