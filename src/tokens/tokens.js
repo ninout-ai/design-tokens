@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 27 Jul 2023 02:52:34 GMT
+ * Generated on Tue, 19 Dec 2023 06:50:35 GMT
  */
 
 module.exports = {
@@ -2130,12 +2130,12 @@ module.exports = {
           ]
         },
         "secondary": {
-          "value": "#7c7c7c",
+          "value": "#999999",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#7C7C7C",
+            "value": "#999999",
             "type": "color"
           },
           "name": "ColorBorderNeutralSecondary",
