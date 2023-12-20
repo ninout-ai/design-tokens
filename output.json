@@ -103,7 +103,7 @@
           "type": "color"
         },
         "outline-hover": {
-          "value": "#F4F9FA",
+          "value": "#F6F8FA",
           "type": "color"
         },
         "hover-light": {
@@ -387,7 +387,7 @@
           "type": "color"
         },
         "tertiary": {
-          "value": "#F1FBFD",
+          "value": "#F6F8FA",
           "type": "color"
         }
       },
@@ -522,7 +522,7 @@
     },
     "blue": {
       "50": {
-        "value": "#F4F9FA",
+        "value": "#F6F8FA",
         "type": "color"
       },
       "100": {
