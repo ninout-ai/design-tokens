@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Dec 2023 06:51:03 GMT
+ * Generated on Wed, 20 Dec 2023 07:00:32 GMT
  */
 
 module.exports = {
@@ -2311,6 +2311,31 @@ module.exports = {
           "border",
           "black"
         ]
+      },
+      "accent": {
+        "primary": {
+          "value": "#eaa21a",
+          "type": "color",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAA21A",
+            "type": "color"
+          },
+          "name": "ColorBorderAccentPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "border",
+            "item": "accent",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "border",
+            "accent",
+            "primary"
+          ]
+        }
       }
     },
     "status": {

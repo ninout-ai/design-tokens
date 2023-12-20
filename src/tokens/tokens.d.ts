@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Dec 2023 06:51:03 GMT
+ * Generated on Wed, 20 Dec 2023 07:00:32 GMT
  */
 
 export default tokens;
@@ -171,7 +171,10 @@ declare const tokens: {
       },
       "focus": DesignToken,
       "white": DesignToken,
-      "black": DesignToken
+      "black": DesignToken,
+      "accent": {
+        "primary": DesignToken
+      }
     },
     "status": {
       "danger": DesignToken,
