@@ -454,6 +454,12 @@
       "black": {
         "value": "#000000",
         "type": "color"
+      },
+      "accent": {
+        "primary": {
+          "value": "#EAA21A",
+          "type": "color"
+        }
       }
     },
     "status": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Dec 2023 06:51:03 GMT
+ * Generated on Wed, 20 Dec 2023 07:00:32 GMT
  */
 
 :root {
@@ -106,6 +106,7 @@
   --color-border-focus: #0054c5;
   --color-border-white: #ffffff;
   --color-border-black: #000000;
+  --color-border-accent-primary: #eaa21a;
   --color-status-danger: #c74444;
   --color-status-notification: #d24623;
   --color-white: #ffffff;
