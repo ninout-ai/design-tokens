@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Dec 2023 06:50:35 GMT
+ * Generated on Wed, 20 Dec 2023 06:51:03 GMT
  */
 
 module.exports = {
@@ -507,12 +507,12 @@ module.exports = {
           ]
         },
         "outline-hover": {
-          "value": "#f4f9fa",
+          "value": "#f6f8fa",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#F4F9FA",
+            "value": "#F6F8FA",
             "type": "color"
           },
           "name": "ColorButtonPrimaryOutlineHover",
@@ -1986,12 +1986,12 @@ module.exports = {
           ]
         },
         "tertiary": {
-          "value": "#f1fbfd",
+          "value": "#f6f8fa",
           "type": "color",
           "filePath": "output.json",
           "isSource": true,
           "original": {
-            "value": "#F1FBFD",
+            "value": "#F6F8FA",
             "type": "color"
           },
           "name": "ColorSurfaceNormalTertiary",
@@ -2630,12 +2630,12 @@ module.exports = {
     },
     "blue": {
       "50": {
-        "value": "#f4f9fa",
+        "value": "#f6f8fa",
         "type": "color",
         "filePath": "output.json",
         "isSource": true,
         "original": {
-          "value": "#F4F9FA",
+          "value": "#F6F8FA",
           "type": "color"
         },
         "name": "ColorBlue50",
