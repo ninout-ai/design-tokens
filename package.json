@@ -19,7 +19,7 @@
   "license": "UNLICENSED",
   "author": "",
   "scripts": {
-    "token:token-transformer": "./node_modules/.bin/token-transformer tokens.json output.json",
+    "token:token-transformer": "./node_modules/.bin/token-transformer tokens.json output.json --expandShadow --expandTypography",
     "token:style-dictionary": "style-dictionary build --config style-dictionary.config.json",
     "token": "run-s token:token-transformer token:style-dictionary"
   },
