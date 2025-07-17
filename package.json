@@ -1,7 +1,7 @@
 {
-  "name": "@creativesurveyapp/design-tokens",
+  "name": "@ninout-ai/design-tokens",
   "version": "0.4.3",
-  "description": "Creative Survey Design Tokens",
+  "description": "Ninout Design Tokens",
   "style": [
     "src/tokens/tokens.css",
     "src/tokens/tokens.scss"
@@ -10,11 +10,11 @@
     "src/tokens/**"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@creativesurveyapp/design-tokens"
+    "registry": "https://npm.pkg.github.com/@ninout-ai/design-tokens"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com:CreativeSurveyApp/design-tokens.git"
+    "url": "https://github.com:ninout-ai/design-tokens.git"
   },
   "license": "UNLICENSED",
   "author": "",
