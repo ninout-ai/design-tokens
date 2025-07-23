@@ -1,0 +1,36 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "schedule": [
+    "after 10am and before 5pm every weekday"
+  ],
+  "dependencyDashboard": true,
+  "automerge": true,
+  "platformAutomerge": true,
+  "major": {
+    "reviewers": [
+      "team:frontend-team"
+    ],
+    "labels": [
+      "DBI",
+      "Frontend"
+    ],
+    "automerge": false,
+    "platformAutomerge": false
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "Security",
+      "DBI",
+      "Frontend"
+    ],
+    "reviewers": [
+      "team:frontend-team"
+    ],
+    "schedule": []
+  }
+}
