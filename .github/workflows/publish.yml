@@ -13,8 +13,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
+      - uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3
         with:
           node-version: "16.x"
           registry-url: https://npm.pkg.github.com/
@@ -36,7 +36,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: add version tag
-        uses: pkgdeps/git-tag-action@v2
+        uses: pkgdeps/git-tag-action@00821b688297ad5792cf50e6aaa0d4404bec49d0 # v2
         with:
           version: ${{ env.VERSION }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
