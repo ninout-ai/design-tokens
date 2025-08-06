@@ -36,7 +36,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: add version tag
-        uses: pkgdeps/git-tag-action@v2
+        uses: pkgdeps/git-tag-action@ef111413f44ebe5cc05994e7f5b5b9edaaada08d # v3
         with:
           version: ${{ env.VERSION }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
