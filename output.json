@@ -1,14 +1,4 @@
 {
-  "tokenSetOrder": {
-    "0": {
-      "value": "primitive",
-      "type": "other"
-    },
-    "1": {
-      "value": "semantic",
-      "type": "other"
-    }
-  },
   "color": {
     "text": {
       "body": {
@@ -738,167 +728,329 @@
   "typography": {
     "question": {
       "default": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "22px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "22px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       },
       "size1": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "10px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "10px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       },
       "size2": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "13px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "13px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       },
       "size3": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "16px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       },
       "size4": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "18px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "18px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       },
       "size5": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "24px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       },
       "size6": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "32px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "32px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       },
       "size7": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "48px",
-          "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "48px",
+          "type": "fontSizes"
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        }
       }
     },
     "h2": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.25rem",
-        "fontSize": "24px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1.25rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "24px",
+        "type": "fontSizes"
+      }
     },
     "h3": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.25rem",
-        "fontSize": "16px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1.25rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "16px",
+        "type": "fontSizes"
+      }
     },
     "h4": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.5rem",
-        "fontSize": "15px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1.5rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "15px",
+        "type": "fontSizes"
+      }
     },
     "h5": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.5rem",
-        "fontSize": "14px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1.5rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      }
     },
     "body": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1.5rem",
-        "fontSize": "16px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1.5rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "16px",
+        "type": "fontSizes"
+      }
     },
     "caption": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1.75rem",
-        "fontSize": "11px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1.75rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "11px",
+        "type": "fontSizes"
+      }
     },
     "label-lg": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "14px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      }
     },
     "label-md": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "11px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "11px",
+        "type": "fontSizes"
+      }
     },
     "ui-button": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "14px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      }
     },
     "ui-icon": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "11px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies"
       },
-      "type": "typography"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights"
+      },
+      "fontSize": {
+        "value": "11px",
+        "type": "fontSizes"
+      }
     }
   },
   "z-index": {
@@ -1045,103 +1197,238 @@
   },
   "shadow": {
     "edit-questionnaire-item": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "main-content-questionnaire-background": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "question-base": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "panel-base": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "environment-completed": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "edit-step-list-item": {
-      "value": {
-        "x": 0,
-        "y": 3,
-        "blur": 2,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 3,
+        "type": "y"
+      },
+      "blur": {
+        "value": 2,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     },
     "header": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 1,
+        "type": "y"
+      },
+      "blur": {
+        "value": 3,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     },
     "completed-base": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 3,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     },
     "edit-complete-action-modal-header": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 1,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     }
   },
   "line-hight": {
@@ -1262,70 +1549,160 @@
   },
   "box-shadow": {
     "legacy-1": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     },
     "legacy-2": {
-      "value": {
-        "x": 0,
-        "y": 3,
-        "blur": 2,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 3,
+        "type": "y"
+      },
+      "blur": {
+        "value": 2,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     },
     "legacy-3": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 1,
+        "type": "y"
+      },
+      "blur": {
+        "value": 3,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     },
     "legacy-4": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 3,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     },
     "legacy-6": {
-      "value": {
-        "x": 0,
-        "y": 3,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000029",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 3,
+        "type": "y"
+      },
+      "blur": {
+        "value": 3,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000029",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     },
     "legacy-5": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "type": "boxShadow"
+      "y": {
+        "value": 1,
+        "type": "y"
+      },
+      "blur": {
+        "value": 4,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color"
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type"
+      }
     }
   },
   "line-height": {
@@ -1344,6 +1721,16 @@
     "xl": {
       "value": "1.75rem",
       "type": "lineHeights"
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "primitive",
+      "type": "other"
+    },
+    "1": {
+      "value": "semantic",
+      "type": "other"
     }
   }
 }
