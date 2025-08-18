@@ -1,49 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Dec 2023 07:00:32 GMT
+ * Generated on Mon, 18 Aug 2025 04:01:24 GMT
  */
 
 module.exports = {
-  "tokenSetOrder": {
-    "0": {
-      "value": "primitive",
-      "type": "other",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "primitive",
-        "type": "other"
-      },
-      "name": "TokenSetOrder0",
-      "attributes": {
-        "category": "tokenSetOrder",
-        "type": "0"
-      },
-      "path": [
-        "tokenSetOrder",
-        "0"
-      ]
-    },
-    "1": {
-      "value": "semantic",
-      "type": "other",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "semantic",
-        "type": "other"
-      },
-      "name": "TokenSetOrder1",
-      "attributes": {
-        "category": "tokenSetOrder",
-        "type": "1"
-      },
-      "path": [
-        "tokenSetOrder",
-        "1"
-      ]
-    }
-  },
   "color": {
     "text": {
       "body": {
@@ -3595,543 +3555,1617 @@ module.exports = {
   "typography": {
     "question": {
       "default": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "22px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "22px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionDefaultFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "default",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "default",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionDefault",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "default"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionDefaultFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "default",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "default",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "default"
-        ]
+        "fontSize": {
+          "value": "22px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "22px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionDefaultFontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "default",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "default",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionDefaultLineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "default",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "default",
+            "lineHeight"
+          ]
+        }
       },
       "size1": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "10px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "10px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionSize1FontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size1",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size1",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionSize1",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "size1"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionSize1FontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size1",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size1",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "size1"
-        ]
+        "fontSize": {
+          "value": "10px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "10px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionSize1FontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size1",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size1",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionSize1LineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size1",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size1",
+            "lineHeight"
+          ]
+        }
       },
       "size2": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "13px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "13px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionSize2FontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size2",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size2",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionSize2",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "size2"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionSize2FontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size2",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size2",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "size2"
-        ]
+        "fontSize": {
+          "value": "13px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "13px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionSize2FontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size2",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size2",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionSize2LineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size2",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size2",
+            "lineHeight"
+          ]
+        }
       },
       "size3": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "16px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "16px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionSize3FontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size3",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size3",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionSize3",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "size3"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionSize3FontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size3",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size3",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "size3"
-        ]
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "16px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionSize3FontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size3",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size3",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionSize3LineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size3",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size3",
+            "lineHeight"
+          ]
+        }
       },
       "size4": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "18px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "18px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionSize4FontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size4",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size4",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionSize4",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "size4"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionSize4FontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size4",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size4",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "size4"
-        ]
+        "fontSize": {
+          "value": "18px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "18px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionSize4FontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size4",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size4",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionSize4LineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size4",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size4",
+            "lineHeight"
+          ]
+        }
       },
       "size5": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "24px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "24px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionSize5FontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size5",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size5",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionSize5",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "size5"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionSize5FontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size5",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size5",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "size5"
-        ]
+        "fontSize": {
+          "value": "24px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "24px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionSize5FontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size5",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size5",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionSize5LineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size5",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size5",
+            "lineHeight"
+          ]
+        }
       },
       "size6": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "32px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "32px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionSize6FontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size6",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size6",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionSize6",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "size6"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionSize6FontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size6",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size6",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "size6"
-        ]
+        "fontSize": {
+          "value": "32px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "32px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionSize6FontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size6",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size6",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionSize6LineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size6",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size6",
+            "lineHeight"
+          ]
+        }
       },
       "size7": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "fontSize": "48px",
-          "lineHeight": "1.5rem"
-        },
-        "type": "typography",
-        "filePath": "output.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "'Hiragino Sans'",
-            "fontWeight": 300,
-            "fontSize": "48px",
-            "lineHeight": "1.5rem"
+        "fontFamily": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "'Hiragino Sans'",
+            "type": "fontFamilies"
           },
-          "type": "typography"
+          "name": "TypographyQuestionSize7FontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size7",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size7",
+            "fontFamily"
+          ]
         },
-        "name": "TypographyQuestionSize7",
-        "attributes": {
-          "category": "typography",
-          "type": "question",
-          "item": "size7"
+        "fontWeight": {
+          "value": 300,
+          "type": "fontWeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": 300,
+            "type": "fontWeights"
+          },
+          "name": "TypographyQuestionSize7FontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size7",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size7",
+            "fontWeight"
+          ]
         },
-        "path": [
-          "typography",
-          "question",
-          "size7"
-        ]
+        "fontSize": {
+          "value": "48px",
+          "type": "fontSizes",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "48px",
+            "type": "fontSizes"
+          },
+          "name": "TypographyQuestionSize7FontSize",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size7",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size7",
+            "fontSize"
+          ]
+        },
+        "lineHeight": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "filePath": "output.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem",
+            "type": "lineHeights"
+          },
+          "name": "TypographyQuestionSize7LineHeight",
+          "attributes": {
+            "category": "typography",
+            "type": "question",
+            "item": "size7",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "typography",
+            "question",
+            "size7",
+            "lineHeight"
+          ]
+        }
       }
     },
     "h2": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.25rem",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 600,
-          "lineHeight": "1.25rem",
-          "fontSize": "24px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyH2FontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "h2",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "h2",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH2",
-      "attributes": {
-        "category": "typography",
-        "type": "h2"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeights"
+        },
+        "name": "TypographyH2FontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h2",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "h2",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "h2"
-      ]
+      "lineHeight": {
+        "value": "1.25rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1.25rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyH2LineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h2",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "h2",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "24px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyH2FontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "h2",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "h2",
+          "fontSize"
+        ]
+      }
     },
     "h3": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.25rem",
-        "fontSize": "16px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 600,
-          "lineHeight": "1.25rem",
-          "fontSize": "16px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyH3FontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "h3",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "h3",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH3",
-      "attributes": {
-        "category": "typography",
-        "type": "h3"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeights"
+        },
+        "name": "TypographyH3FontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h3",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "h3",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "h3"
-      ]
+      "lineHeight": {
+        "value": "1.25rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1.25rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyH3LineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h3",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "h3",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "16px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyH3FontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "h3",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "h3",
+          "fontSize"
+        ]
+      }
     },
     "h4": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.5rem",
-        "fontSize": "15px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 600,
-          "lineHeight": "1.5rem",
-          "fontSize": "15px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyH4FontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "h4",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "h4",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH4",
-      "attributes": {
-        "category": "typography",
-        "type": "h4"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeights"
+        },
+        "name": "TypographyH4FontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h4",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "h4",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "h4"
-      ]
+      "lineHeight": {
+        "value": "1.5rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyH4LineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h4",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "h4",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "15px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "15px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyH4FontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "h4",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "h4",
+          "fontSize"
+        ]
+      }
     },
     "h5": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 600,
-        "lineHeight": "1.5rem",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 600,
-          "lineHeight": "1.5rem",
-          "fontSize": "14px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyH5FontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyH5",
-      "attributes": {
-        "category": "typography",
-        "type": "h5"
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 600,
+          "type": "fontWeights"
+        },
+        "name": "TypographyH5FontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "h5"
-      ]
+      "lineHeight": {
+        "value": "1.5rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyH5LineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "14px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyH5FontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "fontSize"
+        ]
+      }
     },
     "body": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1.5rem",
-        "fontSize": "16px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "lineHeight": "1.5rem",
-          "fontSize": "16px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyBodyFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "body",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "body",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyBody",
-      "attributes": {
-        "category": "typography",
-        "type": "body"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "name": "TypographyBodyFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "body",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "body",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "body"
-      ]
+      "lineHeight": {
+        "value": "1.5rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1.5rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyBodyLineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "body",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "body",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "16px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyBodyFontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "body",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "body",
+          "fontSize"
+        ]
+      }
     },
     "caption": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1.75rem",
-        "fontSize": "11px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "lineHeight": "1.75rem",
-          "fontSize": "11px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyCaptionFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "caption",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "caption",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyCaption",
-      "attributes": {
-        "category": "typography",
-        "type": "caption"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "name": "TypographyCaptionFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "caption",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "caption",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "caption"
-      ]
+      "lineHeight": {
+        "value": "1.75rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1.75rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyCaptionLineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "caption",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "caption",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "11px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "11px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyCaptionFontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "caption",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "caption",
+          "fontSize"
+        ]
+      }
     },
     "label-lg": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "lineHeight": "1rem",
-          "fontSize": "14px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyLabelLgFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "label-lg",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "label-lg",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyLabelLg",
-      "attributes": {
-        "category": "typography",
-        "type": "label-lg"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "name": "TypographyLabelLgFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "label-lg",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "label-lg",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "label-lg"
-      ]
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyLabelLgLineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "label-lg",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "label-lg",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "14px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyLabelLgFontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "label-lg",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "label-lg",
+          "fontSize"
+        ]
+      }
     },
     "label-md": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "11px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "lineHeight": "1rem",
-          "fontSize": "11px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyLabelMdFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "label-md",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "label-md",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyLabelMd",
-      "attributes": {
-        "category": "typography",
-        "type": "label-md"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "name": "TypographyLabelMdFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "label-md",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "label-md",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "label-md"
-      ]
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyLabelMdLineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "label-md",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "label-md",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "11px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "11px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyLabelMdFontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "label-md",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "label-md",
+          "fontSize"
+        ]
+      }
     },
     "ui-button": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "lineHeight": "1rem",
-          "fontSize": "14px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyUiButtonFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-button",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "ui-button",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyUiButton",
-      "attributes": {
-        "category": "typography",
-        "type": "ui-button"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "name": "TypographyUiButtonFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-button",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "ui-button",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "ui-button"
-      ]
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyUiButtonLineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-button",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "ui-button",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "14px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyUiButtonFontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-button",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "ui-button",
+          "fontSize"
+        ]
+      }
     },
     "ui-icon": {
-      "value": {
-        "fontFamily": "'Hiragino Sans'",
-        "fontWeight": 300,
-        "lineHeight": "1rem",
-        "fontSize": "11px"
-      },
-      "type": "typography",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "'Hiragino Sans'",
-          "fontWeight": 300,
-          "lineHeight": "1rem",
-          "fontSize": "11px"
+      "fontFamily": {
+        "value": "'Hiragino Sans'",
+        "type": "fontFamilies",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "'Hiragino Sans'",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "name": "TypographyUiIconFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-icon",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "ui-icon",
+          "fontFamily"
+        ]
       },
-      "name": "TypographyUiIcon",
-      "attributes": {
-        "category": "typography",
-        "type": "ui-icon"
+      "fontWeight": {
+        "value": 300,
+        "type": "fontWeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 300,
+          "type": "fontWeights"
+        },
+        "name": "TypographyUiIconFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-icon",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "ui-icon",
+          "fontWeight"
+        ]
       },
-      "path": [
-        "typography",
-        "ui-icon"
-      ]
+      "lineHeight": {
+        "value": "1rem",
+        "type": "lineHeights",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "1rem",
+          "type": "lineHeights"
+        },
+        "name": "TypographyUiIconLineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-icon",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "ui-icon",
+          "lineHeight"
+        ]
+      },
+      "fontSize": {
+        "value": "11px",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "11px",
+          "type": "fontSizes"
+        },
+        "name": "TypographyUiIconFontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "ui-icon",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "ui-icon",
+          "fontSize"
+        ]
+      }
     }
   },
   "z-index": {
@@ -4799,301 +5833,1156 @@ module.exports = {
   },
   "shadow": {
     "edit-questionnaire-item": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowEditQuestionnaireItemX",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-questionnaire-item",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "edit-questionnaire-item",
+          "x"
+        ]
       },
-      "name": "ShadowEditQuestionnaireItem",
-      "attributes": {
-        "category": "shadow",
-        "type": "edit-questionnaire-item"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "ShadowEditQuestionnaireItemY",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-questionnaire-item",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "edit-questionnaire-item",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "edit-questionnaire-item"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "ShadowEditQuestionnaireItemBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-questionnaire-item",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "edit-questionnaire-item",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowEditQuestionnaireItemSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-questionnaire-item",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "edit-questionnaire-item",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowEditQuestionnaireItemColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-questionnaire-item",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "edit-questionnaire-item",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "dropShadow",
+          "type": "type"
+        },
+        "name": "ShadowEditQuestionnaireItemType",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-questionnaire-item",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "edit-questionnaire-item",
+          "type"
+        ]
+      }
     },
     "main-content-questionnaire-background": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowMainContentQuestionnaireBackgroundX",
+        "attributes": {
+          "category": "shadow",
+          "type": "main-content-questionnaire-background",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "main-content-questionnaire-background",
+          "x"
+        ]
       },
-      "name": "ShadowMainContentQuestionnaireBackground",
-      "attributes": {
-        "category": "shadow",
-        "type": "main-content-questionnaire-background"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "ShadowMainContentQuestionnaireBackgroundY",
+        "attributes": {
+          "category": "shadow",
+          "type": "main-content-questionnaire-background",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "main-content-questionnaire-background",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "main-content-questionnaire-background"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "ShadowMainContentQuestionnaireBackgroundBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "main-content-questionnaire-background",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "main-content-questionnaire-background",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowMainContentQuestionnaireBackgroundSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "main-content-questionnaire-background",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "main-content-questionnaire-background",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowMainContentQuestionnaireBackgroundColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "main-content-questionnaire-background",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "main-content-questionnaire-background",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "dropShadow",
+          "type": "type"
+        },
+        "name": "ShadowMainContentQuestionnaireBackgroundType",
+        "attributes": {
+          "category": "shadow",
+          "type": "main-content-questionnaire-background",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "main-content-questionnaire-background",
+          "type"
+        ]
+      }
     },
     "question-base": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowQuestionBaseX",
+        "attributes": {
+          "category": "shadow",
+          "type": "question-base",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "question-base",
+          "x"
+        ]
       },
-      "name": "ShadowQuestionBase",
-      "attributes": {
-        "category": "shadow",
-        "type": "question-base"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "ShadowQuestionBaseY",
+        "attributes": {
+          "category": "shadow",
+          "type": "question-base",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "question-base",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "question-base"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "ShadowQuestionBaseBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "question-base",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "question-base",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowQuestionBaseSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "question-base",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "question-base",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowQuestionBaseColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "question-base",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "question-base",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "dropShadow",
+          "type": "type"
+        },
+        "name": "ShadowQuestionBaseType",
+        "attributes": {
+          "category": "shadow",
+          "type": "question-base",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "question-base",
+          "type"
+        ]
+      }
     },
     "panel-base": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowPanelBaseX",
+        "attributes": {
+          "category": "shadow",
+          "type": "panel-base",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "panel-base",
+          "x"
+        ]
       },
-      "name": "ShadowPanelBase",
-      "attributes": {
-        "category": "shadow",
-        "type": "panel-base"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "ShadowPanelBaseY",
+        "attributes": {
+          "category": "shadow",
+          "type": "panel-base",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "panel-base",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "panel-base"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "ShadowPanelBaseBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "panel-base",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "panel-base",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowPanelBaseSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "panel-base",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "panel-base",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowPanelBaseColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "panel-base",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "panel-base",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "dropShadow",
+          "type": "type"
+        },
+        "name": "ShadowPanelBaseType",
+        "attributes": {
+          "category": "shadow",
+          "type": "panel-base",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "panel-base",
+          "type"
+        ]
+      }
     },
     "environment-completed": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowEnvironmentCompletedX",
+        "attributes": {
+          "category": "shadow",
+          "type": "environment-completed",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "environment-completed",
+          "x"
+        ]
       },
-      "name": "ShadowEnvironmentCompleted",
-      "attributes": {
-        "category": "shadow",
-        "type": "environment-completed"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "ShadowEnvironmentCompletedY",
+        "attributes": {
+          "category": "shadow",
+          "type": "environment-completed",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "environment-completed",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "environment-completed"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "ShadowEnvironmentCompletedBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "environment-completed",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "environment-completed",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowEnvironmentCompletedSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "environment-completed",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "environment-completed",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowEnvironmentCompletedColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "environment-completed",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "environment-completed",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "dropShadow",
+          "type": "type"
+        },
+        "name": "ShadowEnvironmentCompletedType",
+        "attributes": {
+          "category": "shadow",
+          "type": "environment-completed",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "environment-completed",
+          "type"
+        ]
+      }
     },
     "edit-step-list-item": {
-      "value": {
-        "x": 0,
-        "y": 3,
-        "blur": 2,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 3,
-          "blur": 2,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowEditStepListItemX",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-step-list-item",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "edit-step-list-item",
+          "x"
+        ]
       },
-      "name": "ShadowEditStepListItem",
-      "attributes": {
-        "category": "shadow",
-        "type": "edit-step-list-item"
+      "y": {
+        "value": 3,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "y"
+        },
+        "name": "ShadowEditStepListItemY",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-step-list-item",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "edit-step-list-item",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "edit-step-list-item"
-      ]
+      "blur": {
+        "value": 2,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 2,
+          "type": "blur"
+        },
+        "name": "ShadowEditStepListItemBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-step-list-item",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "edit-step-list-item",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowEditStepListItemSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-step-list-item",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "edit-step-list-item",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowEditStepListItemColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-step-list-item",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "edit-step-list-item",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "ShadowEditStepListItemType",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-step-list-item",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "edit-step-list-item",
+          "type"
+        ]
+      }
     },
     "header": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 1,
-          "blur": 3,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowHeaderX",
+        "attributes": {
+          "category": "shadow",
+          "type": "header",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "header",
+          "x"
+        ]
       },
-      "name": "ShadowHeader",
-      "attributes": {
-        "category": "shadow",
-        "type": "header"
+      "y": {
+        "value": 1,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 1,
+          "type": "y"
+        },
+        "name": "ShadowHeaderY",
+        "attributes": {
+          "category": "shadow",
+          "type": "header",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "header",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "header"
-      ]
+      "blur": {
+        "value": 3,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "blur"
+        },
+        "name": "ShadowHeaderBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "header",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "header",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowHeaderSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "header",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "header",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowHeaderColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "header",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "header",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "ShadowHeaderType",
+        "attributes": {
+          "category": "shadow",
+          "type": "header",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "header",
+          "type"
+        ]
+      }
     },
     "completed-base": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 3,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowCompletedBaseX",
+        "attributes": {
+          "category": "shadow",
+          "type": "completed-base",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "completed-base",
+          "x"
+        ]
       },
-      "name": "ShadowCompletedBase",
-      "attributes": {
-        "category": "shadow",
-        "type": "completed-base"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "ShadowCompletedBaseY",
+        "attributes": {
+          "category": "shadow",
+          "type": "completed-base",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "completed-base",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "completed-base"
-      ]
+      "blur": {
+        "value": 3,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "blur"
+        },
+        "name": "ShadowCompletedBaseBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "completed-base",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "completed-base",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowCompletedBaseSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "completed-base",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "completed-base",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowCompletedBaseColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "completed-base",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "completed-base",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "ShadowCompletedBaseType",
+        "attributes": {
+          "category": "shadow",
+          "type": "completed-base",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "completed-base",
+          "type"
+        ]
+      }
     },
     "edit-complete-action-modal-header": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 1,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "ShadowEditCompleteActionModalHeaderX",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-complete-action-modal-header",
+          "item": "x"
+        },
+        "path": [
+          "shadow",
+          "edit-complete-action-modal-header",
+          "x"
+        ]
       },
-      "name": "ShadowEditCompleteActionModalHeader",
-      "attributes": {
-        "category": "shadow",
-        "type": "edit-complete-action-modal-header"
+      "y": {
+        "value": 1,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 1,
+          "type": "y"
+        },
+        "name": "ShadowEditCompleteActionModalHeaderY",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-complete-action-modal-header",
+          "item": "y"
+        },
+        "path": [
+          "shadow",
+          "edit-complete-action-modal-header",
+          "y"
+        ]
       },
-      "path": [
-        "shadow",
-        "edit-complete-action-modal-header"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "ShadowEditCompleteActionModalHeaderBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-complete-action-modal-header",
+          "item": "blur"
+        },
+        "path": [
+          "shadow",
+          "edit-complete-action-modal-header",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "ShadowEditCompleteActionModalHeaderSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-complete-action-modal-header",
+          "item": "spread"
+        },
+        "path": [
+          "shadow",
+          "edit-complete-action-modal-header",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "ShadowEditCompleteActionModalHeaderColor",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-complete-action-modal-header",
+          "item": "color"
+        },
+        "path": [
+          "shadow",
+          "edit-complete-action-modal-header",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "ShadowEditCompleteActionModalHeaderType",
+        "attributes": {
+          "category": "shadow",
+          "type": "edit-complete-action-modal-header",
+          "item": "type"
+        },
+        "path": [
+          "shadow",
+          "edit-complete-action-modal-header",
+          "type"
+        ]
+      }
     }
   },
   "line-hight": {
@@ -5593,202 +7482,772 @@ module.exports = {
   },
   "box-shadow": {
     "legacy-1": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "dropShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "BoxShadowLegacy1X",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-1",
+          "item": "x"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-1",
+          "x"
+        ]
       },
-      "name": "BoxShadowLegacy1",
-      "attributes": {
-        "category": "box-shadow",
-        "type": "legacy-1"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "BoxShadowLegacy1Y",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-1",
+          "item": "y"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-1",
+          "y"
+        ]
       },
-      "path": [
-        "box-shadow",
-        "legacy-1"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "BoxShadowLegacy1Blur",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-1",
+          "item": "blur"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-1",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "BoxShadowLegacy1Spread",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-1",
+          "item": "spread"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-1",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "BoxShadowLegacy1Color",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-1",
+          "item": "color"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-1",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "dropShadow",
+          "type": "type"
+        },
+        "name": "BoxShadowLegacy1Type",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-1",
+          "item": "type"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-1",
+          "type"
+        ]
+      }
     },
     "legacy-2": {
-      "value": {
-        "x": 0,
-        "y": 3,
-        "blur": 2,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 3,
-          "blur": 2,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "BoxShadowLegacy2X",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-2",
+          "item": "x"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-2",
+          "x"
+        ]
       },
-      "name": "BoxShadowLegacy2",
-      "attributes": {
-        "category": "box-shadow",
-        "type": "legacy-2"
+      "y": {
+        "value": 3,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "y"
+        },
+        "name": "BoxShadowLegacy2Y",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-2",
+          "item": "y"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-2",
+          "y"
+        ]
       },
-      "path": [
-        "box-shadow",
-        "legacy-2"
-      ]
+      "blur": {
+        "value": 2,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 2,
+          "type": "blur"
+        },
+        "name": "BoxShadowLegacy2Blur",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-2",
+          "item": "blur"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-2",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "BoxShadowLegacy2Spread",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-2",
+          "item": "spread"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-2",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "BoxShadowLegacy2Color",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-2",
+          "item": "color"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-2",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "BoxShadowLegacy2Type",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-2",
+          "item": "type"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-2",
+          "type"
+        ]
+      }
     },
     "legacy-3": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 1,
-          "blur": 3,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "BoxShadowLegacy3X",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-3",
+          "item": "x"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-3",
+          "x"
+        ]
       },
-      "name": "BoxShadowLegacy3",
-      "attributes": {
-        "category": "box-shadow",
-        "type": "legacy-3"
+      "y": {
+        "value": 1,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 1,
+          "type": "y"
+        },
+        "name": "BoxShadowLegacy3Y",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-3",
+          "item": "y"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-3",
+          "y"
+        ]
       },
-      "path": [
-        "box-shadow",
-        "legacy-3"
-      ]
+      "blur": {
+        "value": 3,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "blur"
+        },
+        "name": "BoxShadowLegacy3Blur",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-3",
+          "item": "blur"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-3",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "BoxShadowLegacy3Spread",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-3",
+          "item": "spread"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-3",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "BoxShadowLegacy3Color",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-3",
+          "item": "color"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-3",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "BoxShadowLegacy3Type",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-3",
+          "item": "type"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-3",
+          "type"
+        ]
+      }
     },
     "legacy-4": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 3,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "BoxShadowLegacy4X",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-4",
+          "item": "x"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-4",
+          "x"
+        ]
       },
-      "name": "BoxShadowLegacy4",
-      "attributes": {
-        "category": "box-shadow",
-        "type": "legacy-4"
+      "y": {
+        "value": 0,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "y"
+        },
+        "name": "BoxShadowLegacy4Y",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-4",
+          "item": "y"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-4",
+          "y"
+        ]
       },
-      "path": [
-        "box-shadow",
-        "legacy-4"
-      ]
+      "blur": {
+        "value": 3,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "blur"
+        },
+        "name": "BoxShadowLegacy4Blur",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-4",
+          "item": "blur"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-4",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "BoxShadowLegacy4Spread",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-4",
+          "item": "spread"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-4",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "BoxShadowLegacy4Color",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-4",
+          "item": "color"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-4",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "BoxShadowLegacy4Type",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-4",
+          "item": "type"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-4",
+          "type"
+        ]
+      }
     },
     "legacy-6": {
-      "value": {
-        "x": 0,
-        "y": 3,
-        "blur": 3,
-        "spread": 0,
-        "color": "#00000029",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 3,
-          "blur": 3,
-          "spread": 0,
-          "color": "#00000029",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "BoxShadowLegacy6X",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-6",
+          "item": "x"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-6",
+          "x"
+        ]
       },
-      "name": "BoxShadowLegacy6",
-      "attributes": {
-        "category": "box-shadow",
-        "type": "legacy-6"
+      "y": {
+        "value": 3,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "y"
+        },
+        "name": "BoxShadowLegacy6Y",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-6",
+          "item": "y"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-6",
+          "y"
+        ]
       },
-      "path": [
-        "box-shadow",
-        "legacy-6"
-      ]
+      "blur": {
+        "value": 3,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 3,
+          "type": "blur"
+        },
+        "name": "BoxShadowLegacy6Blur",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-6",
+          "item": "blur"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-6",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "BoxShadowLegacy6Spread",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-6",
+          "item": "spread"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-6",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000029",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000029",
+          "type": "color"
+        },
+        "name": "BoxShadowLegacy6Color",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-6",
+          "item": "color"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-6",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "BoxShadowLegacy6Type",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-6",
+          "item": "type"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-6",
+          "type"
+        ]
+      }
     },
     "legacy-5": {
-      "value": {
-        "x": 0,
-        "y": 1,
-        "blur": 4,
-        "spread": 0,
-        "color": "#00000066",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "x": 0,
-          "y": 1,
-          "blur": 4,
-          "spread": 0,
-          "color": "#00000066",
-          "type": "innerShadow"
+      "x": {
+        "value": 0,
+        "type": "x",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "x"
         },
-        "type": "boxShadow"
+        "name": "BoxShadowLegacy5X",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-5",
+          "item": "x"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-5",
+          "x"
+        ]
       },
-      "name": "BoxShadowLegacy5",
-      "attributes": {
-        "category": "box-shadow",
-        "type": "legacy-5"
+      "y": {
+        "value": 1,
+        "type": "y",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 1,
+          "type": "y"
+        },
+        "name": "BoxShadowLegacy5Y",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-5",
+          "item": "y"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-5",
+          "y"
+        ]
       },
-      "path": [
-        "box-shadow",
-        "legacy-5"
-      ]
+      "blur": {
+        "value": 4,
+        "type": "blur",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 4,
+          "type": "blur"
+        },
+        "name": "BoxShadowLegacy5Blur",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-5",
+          "item": "blur"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-5",
+          "blur"
+        ]
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 0,
+          "type": "spread"
+        },
+        "name": "BoxShadowLegacy5Spread",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-5",
+          "item": "spread"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-5",
+          "spread"
+        ]
+      },
+      "color": {
+        "value": "#00000066",
+        "type": "color",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "#00000066",
+          "type": "color"
+        },
+        "name": "BoxShadowLegacy5Color",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-5",
+          "item": "color"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-5",
+          "color"
+        ]
+      },
+      "type": {
+        "value": "innerShadow",
+        "type": "type",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": "innerShadow",
+          "type": "type"
+        },
+        "name": "BoxShadowLegacy5Type",
+        "attributes": {
+          "category": "box-shadow",
+          "type": "legacy-5",
+          "item": "type"
+        },
+        "path": [
+          "box-shadow",
+          "legacy-5",
+          "type"
+        ]
+      }
     }
   },
   "line-height": {
@@ -5866,6 +8325,46 @@ module.exports = {
       "path": [
         "line-height",
         "xl"
+      ]
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "primitive",
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "primitive",
+        "type": "other"
+      },
+      "name": "TokenSetOrder0",
+      "attributes": {
+        "category": "tokenSetOrder",
+        "type": "0"
+      },
+      "path": [
+        "tokenSetOrder",
+        "0"
+      ]
+    },
+    "1": {
+      "value": "semantic",
+      "type": "other",
+      "filePath": "output.json",
+      "isSource": true,
+      "original": {
+        "value": "semantic",
+        "type": "other"
+      },
+      "name": "TokenSetOrder1",
+      "attributes": {
+        "category": "tokenSetOrder",
+        "type": "1"
+      },
+      "path": [
+        "tokenSetOrder",
+        "1"
       ]
     }
   }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Dec 2023 07:00:32 GMT
+ * Generated on Mon, 18 Aug 2025 04:01:24 GMT
  */
 
 export default tokens;
@@ -22,10 +22,6 @@ declare interface DesignToken {
 }
 
 declare const tokens: {
-  "tokenSetOrder": {
-    "0": DesignToken,
-    "1": DesignToken
-  },
   "color": {
     "text": {
       "body": DesignToken,
@@ -266,25 +262,115 @@ declare const tokens: {
   },
   "typography": {
     "question": {
-      "default": DesignToken,
-      "size1": DesignToken,
-      "size2": DesignToken,
-      "size3": DesignToken,
-      "size4": DesignToken,
-      "size5": DesignToken,
-      "size6": DesignToken,
-      "size7": DesignToken
+      "default": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      },
+      "size1": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      },
+      "size2": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      },
+      "size3": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      },
+      "size4": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      },
+      "size5": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      },
+      "size6": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      },
+      "size7": {
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontSize": DesignToken,
+        "lineHeight": DesignToken
+      }
     },
-    "h2": DesignToken,
-    "h3": DesignToken,
-    "h4": DesignToken,
-    "h5": DesignToken,
-    "body": DesignToken,
-    "caption": DesignToken,
-    "label-lg": DesignToken,
-    "label-md": DesignToken,
-    "ui-button": DesignToken,
-    "ui-icon": DesignToken
+    "h2": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "h3": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "h4": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "h5": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "body": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "caption": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "label-lg": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "label-md": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "ui-button": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    },
+    "ui-icon": {
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "lineHeight": DesignToken,
+      "fontSize": DesignToken
+    }
   },
   "z-index": {
     "0": DesignToken,
@@ -324,15 +410,78 @@ declare const tokens: {
   "modal": DesignToken,
   "footer-progressbar": DesignToken,
   "shadow": {
-    "edit-questionnaire-item": DesignToken,
-    "main-content-questionnaire-background": DesignToken,
-    "question-base": DesignToken,
-    "panel-base": DesignToken,
-    "environment-completed": DesignToken,
-    "edit-step-list-item": DesignToken,
-    "header": DesignToken,
-    "completed-base": DesignToken,
-    "edit-complete-action-modal-header": DesignToken
+    "edit-questionnaire-item": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "main-content-questionnaire-background": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "question-base": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "panel-base": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "environment-completed": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "edit-step-list-item": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "header": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "completed-base": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "edit-complete-action-modal-header": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    }
   },
   "line-hight": {
     "nomal": DesignToken,
@@ -372,17 +521,63 @@ declare const tokens: {
     "48": DesignToken
   },
   "box-shadow": {
-    "legacy-1": DesignToken,
-    "legacy-2": DesignToken,
-    "legacy-3": DesignToken,
-    "legacy-4": DesignToken,
-    "legacy-6": DesignToken,
-    "legacy-5": DesignToken
+    "legacy-1": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "legacy-2": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "legacy-3": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "legacy-4": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "legacy-6": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    },
+    "legacy-5": {
+      "x": DesignToken,
+      "y": DesignToken,
+      "blur": DesignToken,
+      "spread": DesignToken,
+      "color": DesignToken,
+      "type": DesignToken
+    }
   },
   "line-height": {
     "xs": DesignToken,
     "md": DesignToken,
     "lg": DesignToken,
     "xl": DesignToken
+  },
+  "tokenSetOrder": {
+    "0": DesignToken,
+    "1": DesignToken
   }
 }
